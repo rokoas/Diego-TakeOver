@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="monster.png">
+        <SubTexture name="monster10000" x="5" y="5" width="352" height="317"/>
+        <SubTexture name="monster20000" x="367" y="5" width="352" height="317"/>
+</TextureAtlas>

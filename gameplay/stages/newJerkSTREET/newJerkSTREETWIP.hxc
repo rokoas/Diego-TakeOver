@@ -1,0 +1,80 @@
+import flixel.FlxG;
+import flixel.FlxSprite;
+import flixel.addons.display.FlxRuntimeShader;
+import flixel.sound.FlxSound;
+import funkin.Conductor;
+import funkin.modding.base.ScriptedFlxRuntimeShader;
+import funkin.graphics.shaders.AdjustColorShader;
+import funkin.play.PlayState;
+import funkin.play.stage.Stage;
+import funkin.play.character.CharacterType;
+
+class NewJerkStreeStage extends Stage
+{
+  function new()
+  {
+    super('newJerkSTREET');
+  }
+
+  var colorShaderBf:AdjustColorShader;
+  var colorShaderDad:AdjustColorShader;
+  var colorShaderGf:AdjustColorShader;
+
+  public override function onCountdownStart(event:CountdownScriptEvent):Void
+  {
+    super.onCountdownStart(event);
+  }
+
+  function buildStage()
+  {
+    super.buildStage();
+
+    colorShaderBf = new AdjustColorShader();
+    colorShaderDad = new AdjustColorShader();
+    colorShaderGf = new AdjustColorShader();
+
+    colorShaderBf.brightness = -30;
+    colorShaderBf.hue = -30;
+    colorShaderBf.contrast = 0;
+    colorShaderBf.saturation = -20;
+
+    colorShaderGf.brightness = -30;
+    colorShaderGf.hue = -30;
+    colorShaderGf.contrast = 0;
+    colorShaderGf.saturation = -20;
+
+    colorShaderDad.brightness = -30;
+    colorShaderDad.hue = -30;
+    colorShaderDad.contrast = 0;
+    colorShaderDad.saturation = -20;
+  }
+
+  function onBeatHit(event:SongTimeScriptEvent):Void
+  {
+    super.onBeatHit(event);
+  }
+
+  function onStepHit(event:SongTimeScriptEvent):Void
+  {
+    super.onStepHit(event);
+  }
+
+  /**
+   * Apply the shader to the character as it is added.
+   */
+  override function addCharacter(character:BaseCharacter, charType:CharacterType):Void
+  {
+    // Apply the shader automatically to each character as it gets added.
+    super.addCharacter(character, charType);
+    trace('Applied stage shader to ' + character.characterName);
+    switch (charType)
+    {
+      case CharacterType.BF:
+        character.shader = colorShaderBf;
+      case CharacterType.DAD:
+        character.shader = colorShaderDad;
+      case CharacterType.GF:
+        character.shader = colorShaderGf;
+    }
+  }
+}

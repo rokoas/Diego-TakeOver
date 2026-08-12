@@ -1,0 +1,83 @@
+{
+	"renderType": "multianimateatlas",
+	"offsets": [
+		0,
+		0
+	],
+	"assetPath": "gameplay/characters/diego-oponent/Diego",
+	"healthIcon": {
+		"shouldBop": true,
+		"offsets": [
+			0,
+			0
+		],
+		"id": "diego"
+	},
+	"version": "1.0.0",
+	"name": "Diego(newOPP)",
+	"cameraOffsets": [
+		0,
+		0
+	],
+	"flipX": true,
+	"flipY": false,
+	"atlasSettings": {
+		"applyStageMatrix": false,
+		"swfMode": true,
+		"useRenderTexture": false,
+		"cacheOnLoad": false,
+		"filterQuality": 1
+	},
+	"animations": [
+		{
+			"frameIndices": [],
+			"prefix": "idle",
+			"name": "idle"
+		},
+		{
+			"frameIndices": [],
+			"prefix": "singRIGHT",
+			"name": "singLEFT"
+		},
+		{
+			"frameIndices": [],
+			"prefix": "singDOWN",
+			"name": "singDOWN"
+		},
+		{
+			"frameIndices": [],
+			"prefix": "singUP",
+			"name": "singUP"
+		},
+		{
+			"frameIndices": [],
+			"prefix": "singLEFT",
+			"name": "singRIGHT"
+		},
+		{
+			"frameIndices": [],
+			"prefix": "singLEFTmiss",
+			"name": "singRIGHmiss"
+		},
+		{
+			"frameIndices": [],
+			"prefix": "singDOWNmiss",
+			"name": "singDOWNmiss"
+		},
+		{
+			"frameIndices": [],
+			"prefix": "singUPmiss",
+			"name": "singUPmiss"
+		},
+		{
+			"frameIndices": [],
+			"prefix": "singRIGHTmiss",
+			"name": "singLEFTmiss"
+		},
+		{
+			"frameIndices": [],
+			"prefix": "Yeah0",
+			"name": "Yeah"
+		}
+	]
+}

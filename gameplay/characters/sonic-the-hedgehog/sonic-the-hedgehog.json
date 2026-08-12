@@ -1,0 +1,105 @@
+{
+	"version": "1.0.0",
+	"renderType": "sparrow",
+	"offsets": [
+		2,
+		16
+	],
+	"danceEvery": 1,
+	"applyStageMatrix": false,
+	"scale": 1.3,
+	"name": "Sonic The HEDGEHOG(NEW ONE)",
+	"cameraOffsets": [
+		-2,
+		-90
+	],
+	"flipX": false,
+	"singTime": 8,
+	"startingAnimation": "idle",
+	"isPixel": false,
+	"assetPath": "gameplay/characters/sonic-the-hedgehog/SonicNewBonus",
+	"healthIcon": {
+		"isPixel": false,
+		"offsets": [
+			0,
+			-20
+		],
+		"scale": 1,
+		"id": "sonic",
+		"flipX": false
+	},
+	"atlasSettings": {
+		"swfMode": true,
+		"applyStageMatrix": false,
+		"useRenderTexture": false,
+		"filterQuality": 1,
+		"cacheOnLoad": false
+	},
+	"animations": [
+		{
+			"offsets": [
+				0,
+				35
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "SonicNewIDLE",
+			"name": "idle",
+			"looped": false,
+			"flipX": false,
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				91,
+				10
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "SonicNewLeft",
+			"name": "singLEFT",
+			"looped": false,
+			"flipX": false,
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				45,
+				-29
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "SonicNewDown",
+			"name": "singDOWN",
+			"looped": false,
+			"flipX": false,
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				-23,
+				81
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "SonicNewUp",
+			"name": "singUP",
+			"looped": false,
+			"flipX": false,
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				-102,
+				25
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "SonicNewRight",
+			"name": "singRIGHT",
+			"looped": false,
+			"flipX": false,
+			"animType": "framelabel"
+		}
+	]
+}

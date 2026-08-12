@@ -1,0 +1,63 @@
+{
+  "version": "2.2.4",
+  "songName": "Tutorial (Diego Mix)",
+  "artist": "DiegozZ",
+  "charter": "DiegozZ",
+  "divisions": 96,
+  "looped": false,
+  "offsets": {
+    "instrumental": 0,
+    "altInstrumentals": {    },
+    "vocals": {    },
+    "altVocals": {    }
+  },
+  "playData": {
+    "songVariations": [    ],
+    "stickerPack": "bonus-tutorial-diego",
+    "difficulties": [
+      "easy",
+      "normal",
+      "hard"
+    ],
+    "characters": {
+      "player": "diego",
+      "girlfriend": "",
+      "opponent": "roky",
+      "instrumental": "diego",
+      "altInstrumentals": [      ],
+      "opponentVocals": [
+        "gf-diego"
+      ],
+      "playerVocals": [
+        "diego"
+      ]
+    },
+    "stage": "Theather",
+    "noteStyle": "frutiger",
+    "album": "volume1diego",
+    "ratings": {
+      "easy": 2,
+      "normal": 4,
+      "hard": 6
+    },
+    "previewStart": 0,
+    "previewEnd": 0
+  },
+  "generatedBy": "Friday Night Funkin' - v0.7.4",
+  "timeFormat": "ms",
+  "timeChanges": [
+    {
+      "t": 0,
+      "b": 0,
+      "bpm": 100,
+      "n": 4,
+      "d": 4,
+      "bt": [
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ]
+}

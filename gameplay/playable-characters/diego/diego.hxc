@@ -1,0 +1,15 @@
+import funkin.ui.freeplay.charselect.PlayableCharacter;
+import funkin.save.Save;
+
+class DiegoPlayableCharacter extends PlayableCharacter
+{
+  function new()
+  {
+    super('diego');
+  }
+
+  override function isUnlocked(true):Bool
+  {
+    return Save.instance.hasBeatenLevel('weekback');
+  }
+}

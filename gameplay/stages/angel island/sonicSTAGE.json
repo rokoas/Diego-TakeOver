@@ -1,0 +1,109 @@
+{
+  "props": [
+    {
+      "danceEvery": 0,
+      "zIndex": 0,
+      "position": [-652, -703],
+      "scale": [1, 1],
+      "animType": "sparrow",
+      "name": "skyBOX",
+      "isPixel": false,
+      "assetPath": "gameplay/stages/angel island/sky",
+      "scroll": [0.9, 0.9],
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 1,
+      "position": [-677, -710],
+      "scale": [1, 1],
+      "animType": "sparrow",
+      "name": "island",
+      "isPixel": false,
+      "assetPath": "gameplay/stages/angel island/angel island",
+      "scroll": [0.9, 0.9],
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 2,
+      "position": [-654, -528],
+      "scale": [1.15, 1.15],
+      "animType": "sparrow",
+      "name": "light",
+      "isPixel": false,
+      "assetPath": "gameplay/stages/angel island/ilumi",
+      "scroll": [0.9, 0.9],
+      "alpha": 0.75,
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 3,
+      "position": [-663, -507],
+      "scale": [1.15, 1],
+      "animType": "sparrow",
+      "name": "rock",
+      "isPixel": false,
+      "assetPath": "gameplay/stages/angel island/rokok",
+      "scroll": [0.9, 0.9],
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 4,
+      "position": [-528, -713],
+      "scale": [1, 1],
+      "animType": "sparrow",
+      "name": "tree",
+      "isPixel": false,
+      "assetPath": "gameplay/stages/angel island/sappling",
+      "scroll": [0.9, 0.9],
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 5,
+      "position": [-776, -837],
+      "scale": [1.15, 1.15],
+      "animType": "sparrow",
+      "name": "groundGREEN",
+      "isPixel": false,
+      "assetPath": "gameplay/stages/angel island/greenGRUND",
+      "scroll": [0.9, 0.9],
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 6,
+      "position": [-766, -724],
+      "scale": [1.30, 1.30],
+      "animType": "sparrow",
+      "name": "frontLEAVES",
+      "isPixel": false,
+      "assetPath": "gameplay/stages/angel island/FrontLEAVES",
+      "scroll": [1.3, 1.3],
+      "animations": []
+    }
+  ],
+  "cameraZoom": 0.7,
+  "version": "1.0.0",
+  "characters": {
+    "bf": {
+      "zIndex": 300,
+      "position": [1200, 500],
+      "cameraOffsets": [-300, -180]
+    },
+    "dad": {
+      "zIndex": 200,
+      "position": [153, 614],
+      "cameraOffsets": [172, -10]
+    },
+    "gf": {
+      "zIndex": 100,
+      "cameraOffsets": [663.1, 249],
+      "position": [751.5, 787]
+    }
+  },
+  "name": "sonicSTAGE"
+}

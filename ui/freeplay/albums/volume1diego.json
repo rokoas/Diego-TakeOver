@@ -1,0 +1,9 @@
+{
+  "version": "1.0.0",
+  "name": "OST Diego Mixes Album",
+  "artists": ["DiegozZ", "KRYOMA", "TotallyZary", "PanchoInAud", "Calacochido", "DaOneJuda", "DETOUR", "Bany_Bara", "olasoymia"],
+  "albumArtAsset": "freeplay/albumRoll/diegomixesv1",
+  "albumTitleAsset": "freeplay/albumRoll/diegomixesv1-text",
+  "albumTitleOffsets": [-45, 0],
+  "albumOSTName": "Diego Mixes Vol. 1"
+}

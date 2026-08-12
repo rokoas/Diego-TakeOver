@@ -1,0 +1,150 @@
+{
+  "version": "1.0.0",
+  "name": "Diego",
+  "ownedChars": [
+    "diego",
+    "diego-oponent",
+    "diego-thebat"
+  ],
+  "showUnownedChars": false,
+  "unlocked": false,
+  "freeplayStyle": "diego",
+  "stickerPack": "standard-diego",
+  "freeplayDJ": {
+    "assetPath": "ui/freeplay/dj/diego/freeplay-diego",
+    "scriptClass": "funkin.ui.freeplay.dj.DiegoFreeplayDJ",
+    "fistPump": {
+      "introStartFrame": 0,
+      "introEndFrame": 4,
+
+      "loopStartFrame": 4,
+      "loopEndFrame": -1,
+
+      "introBadStartFrame": 0,
+      "introBadEndFrame": 4,
+
+      "loopBadStartFrame": 4,
+      "loopBadEndFrame": -1
+    },
+    "charSelect": {
+      "transitionDelay": 0.45
+    },
+    "text1": "GO! DIEGO GO! DIEGO",
+    "text2": "SILLY BEATS ON FL STUDIO",
+    "text3": "ROKY_PLAYER12",
+    "animations": [
+      {
+        "name": "intro",
+        "prefix": "boyfriend dj intro",
+        "offsets": [-380, 87]
+      },
+      {
+        "name": "idle",
+        "prefix": "Diego DJ",
+        "offsets": [-75, 95]
+      },
+      {
+        "name": "confirm",
+        "prefix": "Diego DJ confirm",
+        "offsets": [-75, 112]
+      },
+      {
+        "name": "fistPump",
+        "prefix": "Boyfriend DJ fist pump",
+        "offsets": [-75, 95]
+      },
+      {
+        "name": "loss",
+        "prefix": "Boyfriend DJ loss reaction 1",
+        "offsets": [-75, 95]
+      },
+      {
+        "name": "charSelect",
+        "prefix": "Boyfriend DJ to CS",
+        "offsets": [-375, 87]
+      }
+    ]
+  },
+  "charSelect": {
+    "position": 4,
+    "assetPath": "ui/character-select/characters/diego",
+    "gf": {
+      "assetPath": "ui/character-select/characters/roky",
+      "visualizer": false
+    }
+  },
+  "results": {
+    "music": {
+      "PERFECT_GOLD": "gameplay/playable-characters/diego/results/music/results-perfect/resultsPERFECT-diego",
+      "PERFECT": "gameplay/playable-characters/diego/results/music/results-perfect/resultsPERFECT-diego",
+      "EXCELLENT": "gameplay/playable-characters/diego/results/music/results-excellent/resultsEXCELLENT-diego",
+      "GREAT": "gameplay/playable-characters/diego/results/music/results-good/resultsNORMAL-diego",
+      "GOOD": "gameplay/playable-characters/diego/results/music/results-great/resultsNORMAL-diego",
+      "SHIT": "gameplay/playable-characters/diego/results/music/results-shit/resultsSHIT-diego"
+    },
+    "perfectGold": [
+      {
+        "renderType": "animateatlas",
+        "assetPath": "gameplay/playable-characters/diego/results/graphics/results-perfect",
+        "startFrameLabel": "INTRO",
+        "zIndex": 500,
+        "offsets": [650, 0],
+        "loopFrameLabel": "LOOP START"
+      }
+    ],
+    "perfect": [
+      {
+        "renderType": "animateatlas",
+        "assetPath": "gameplay/playable-characters/diego/results/graphics/results-perfect",
+        "scale": 0.8,
+        "startFrameLabel": "INTRO",
+        "zIndex": 500,
+        "offsets": [650, 0],
+        "loopFrameLabel": "LOOP START"
+      }
+    ],
+    "excellent": [
+      {
+        "renderType": "animateatlas",
+        "assetPath": "gameplay/playable-characters/diego/results/graphics/results-excellent",
+        "scale": 0.9,
+        "zIndex": 500,
+        "offsets": [250, 40],
+
+        "loopFrame": 63
+      }
+    ],
+    "great": [
+      {
+        "renderType": "animateatlas",
+        "assetPath": "gameplay/playable-characters/diego/results/graphics/results-good",
+        "scale": 0.93,
+        "zIndex": 500,
+        "offsets": [0, 40],
+
+        "loopFrame": 28
+      }
+    ],
+    "good": [
+      {
+        "renderType": "animateatlas",
+        "assetPath": "gameplay/playable-characters/diego/results/graphics/results-great",
+        "scale": 0.93,
+        "zIndex": 501,
+        "offsets": [0, 40],
+
+        "loopFrame": 28
+      }
+    ],
+    "loss": [
+      {
+        "renderType": "animateatlas",
+        "assetPath": "gameplay/playable-characters/diego/results/graphics/results-shit",
+        "scale": 0.93,
+        "zIndex": 500,
+        "offsets": [350, -800],
+        "loopFrameLabel": "246"
+      }
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "version": "1.0.0",
+  "bgAsset": "ui/freeplay/styles/diego/freeplayBGweek1-diego",
+  "selectorAsset": "ui/freeplay/styles/diego/freeplaySelector_diego",
+  "numbersAsset": "ui/freeplay/styles/diego/digital-numbers",
+  "capsuleAsset": "ui/freeplay/interface/freeplay-capsule/capsule/capsule-diego",
+  "capsuleTextColors": ["#6B0707", "#800808"],
+  "startDelay": 1.0
+}

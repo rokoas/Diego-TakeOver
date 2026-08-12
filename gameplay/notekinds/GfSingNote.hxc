@@ -1,0 +1,34 @@
+import funkin.modding.events.ScriptEvent;
+import funkin.play.character.BaseCharacter;
+import funkin.play.notes.notekind.ScriptedNoteKind;
+import funkin.play.PlayState;
+import funkin.util.Constants;
+
+class GfSingNote extends ScriptedNoteKind {
+    // Nombres capitalizados de dirección en orden: LEFT, DOWN, UP, RIGHT
+    static final DIRECTION_NAMES:Array<String> = ["LEFT", "DOWN", "UP", "RIGHT"];
+
+    function new() {
+        super("gf-sing", "Girlfriend Sing");
+        this.noanim = true;
+    }
+
+    override public function onNoteHit(event:HitNoteScriptEvent) {
+        if (PlayState.instance == null || PlayState.instance.currentStage == null) return;
+
+        var gf:BaseCharacter = PlayState.instance.currentStage.getGirlfriend();
+        if (gf == null) return;
+
+        var dir:Int = event.note.direction;
+        if (dir < 0 || dir >= DIRECTION_NAMES.length) return;
+
+        var dirName:String = DIRECTION_NAMES[dir];
+        if (event.note.isHoldNote && gf.hasAnimation(dirName + Constants.ANIMATION_HOLD_SUFFIX))
+            dirName += Constants.ANIMATION_HOLD_SUFFIX;
+
+        var animToPlay:String = "sing" + dirName;
+
+        if (!gf.hasAnimation(animToPlay)) return;
+        gf.playAnimation(animToPlay);
+    }
+}

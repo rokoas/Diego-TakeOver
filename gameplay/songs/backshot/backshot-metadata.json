@@ -1,0 +1,47 @@
+{
+ "version": "2.2.4",
+ "songName": "Backshot",
+ "artist": "Alter_B4ra",
+ "charter": "DiegozZ",
+ "offsets": { },
+ "playData": {
+  "songVariations": [
+   "erect"
+  ],
+  "difficulties": [
+   "easy",
+   "normal",
+   "hard"
+  ],
+  "characters": {
+   "player": "bf",
+   "girlfriend": "gf",
+   "opponent": "diego-oponent",
+   "opponentVocals": [
+    "dad"
+   ],
+   "playerVocals": [
+    "bf"
+   ]
+  },
+  "stage": "newJerkHall",
+  "noteStyle": "funkin",
+  "album": "volume1diegoBF",
+  "stickerPack": "week-Dg-standard",
+  "ratings": {
+   "easy": 2,
+   "normal": 4,
+   "hard": 6
+  },
+  "previewEnd": 0
+ },
+ "generatedBy": "Friday Night Funkin' - v0.8.4",
+ "timeChanges": [
+  {
+   "t": 0,
+   "b": 0,
+   "bpm": 110,
+   "bt": [4, 4, 4, 4]
+  }
+ ]
+}

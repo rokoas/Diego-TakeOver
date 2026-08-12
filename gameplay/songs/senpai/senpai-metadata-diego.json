@@ -1,0 +1,63 @@
+{
+ "version": "2.2.4",
+ "songName": "Senpai (Diego Mix)",
+ "artist": "DaOneJuda",
+ "charter": "DiegozZ + Desher",
+ "offsets": { },
+ "playData": {
+  "difficulties": [
+   "easy",
+   "normal",
+   "hard"
+  ],
+  "characters": {
+   "player": "diego",
+   "girlfriend": "roky-pixel",
+   "opponent": "senpai",
+   "instrumental": "diego",
+   "opponentVocals": [
+    "senpai"
+   ],
+   "playerVocals": [
+    "diego"
+   ]
+  },
+  "stage": "schoolErect",
+  "noteStyle": "pixel",
+  "ratings": {
+   "easy": 3,
+   "normal": 5,
+   "hard": 6
+  },
+  "album": "volume1diego",
+  "previewStart": 0,
+  "previewEnd": 0
+ },
+ "generatedBy": "Friday Night Funkin' - v0.8.1",
+ "timeChanges": [
+  {
+   "t": 0,
+   "b": 0,
+   "bpm": 144,
+   "bt": [4, 4, 4, 4]
+  },
+  {
+   "t": 26705.1667,
+   "b": 64.0924,
+   "bpm": 144,
+   "bt": [4, 4, 4, 4]
+  },
+  {
+   "t": 66705.0626,
+   "b": 160.0922,
+   "bpm": 144,
+   "bt": [4, 4, 4, 4]
+  },
+  {
+   "t": 66715.4585,
+   "b": 160.1172,
+   "bpm": 144,
+   "bt": [4, 4, 4, 4]
+  }
+ ]
+}

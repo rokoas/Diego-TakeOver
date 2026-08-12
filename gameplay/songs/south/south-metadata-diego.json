@@ -1,0 +1,87 @@
+{
+ "version": "2.2.4",
+ "songName": "South (Diego Mix)",
+ "artist": "DETOUR",
+ "charter": "DiegozZ",
+ "offsets": { },
+ "playData": {
+  "difficulties": [
+   "easy",
+   "normal",
+   "hard"
+  ],
+  "characters": {
+   "player": "diego",
+   "girlfriend": "roky",
+   "opponent": "spooky",
+   "instrumental": "diego",
+   "opponentVocals": [
+    "spooky"
+   ],
+   "playerVocals": [
+    "diego"
+   ]
+  },
+  "stage": "SpookyStore",
+  "noteStyle": "frutiger",
+  "ratings": {
+   "easy": 2,
+   "normal": 4,
+   "hard": 7
+  },
+  "album": "volume1diego",
+  "previewStart": 0,
+  "previewEnd": 0
+ },
+ "generatedBy": "Friday Night Funkin' - v0.8.1",
+ "timeChanges": [
+  {
+   "t": 0,
+   "b": 0,
+   "bpm": 165,
+   "bt": [4, 4, 4, 4]
+  },
+  {
+   "t": 22966.0001,
+   "b": 63.1565,
+   "bpm": 165,
+   "bt": [4, 4, 4, 4]
+  },
+  {
+   "t": 29477.0001,
+   "b": 81.0618,
+   "bpm": 165,
+   "bt": [4, 4, 4, 4]
+  },
+  {
+   "t": 32210.3455,
+   "b": 88.5785,
+   "bpm": 165,
+   "bt": [4, 4, 4, 4]
+  },
+  {
+   "t": 32413.6365,
+   "b": 89.1376,
+   "bpm": 165,
+   "bt": [4, 4, 4, 4]
+  },
+  {
+   "t": 32931,
+   "b": 90.5603,
+   "bpm": 165,
+   "bt": [4, 4, 4, 4]
+  },
+  {
+   "t": 33100,
+   "b": 91.025,
+   "bpm": 165,
+   "bt": [4, 4, 4, 4]
+  },
+  {
+   "t": 49964,
+   "b": 137.401,
+   "bpm": 165,
+   "bt": [4, 4, 4, 4]
+  }
+ ]
+}

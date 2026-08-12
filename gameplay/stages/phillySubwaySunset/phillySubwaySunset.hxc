@@ -1,0 +1,80 @@
+import flixel.FlxG;
+import flixel.FlxSprite;
+import flixel.addons.display.FlxRuntimeShader;
+import flixel.sound.FlxSound;
+import funkin.Conductor;
+import funkin.modding.base.ScriptedFlxRuntimeShader;
+import funkin.graphics.shaders.AdjustColorShader;
+import funkin.play.PlayState;
+import funkin.play.stage.Stage;
+import funkin.play.character.CharacterType;
+
+class PhillySubwaySunsetStage extends Stage
+{
+  function new()
+  {
+    super('phillySubwaySunset');
+  }
+
+  var colorShaderBf:AdjustColorShader;
+  var colorShaderDad:AdjustColorShader;
+  var colorShaderGf:AdjustColorShader;
+
+  public override function onCountdownStart(event:CountdownScriptEvent):Void
+  {
+    super.onCountdownStart(event);
+  }
+
+  function buildStage()
+  {
+    super.buildStage();
+
+    colorShaderBf = new AdjustColorShader();
+    colorShaderDad = new AdjustColorShader();
+    colorShaderGf = new AdjustColorShader();
+
+    colorShaderBf.brightness = 10;
+    colorShaderBf.hue = 11;
+    colorShaderBf.contrast = -10;
+    colorShaderBf.saturation = 28;
+
+    colorShaderGf.brightness = 10;
+    colorShaderGf.hue = 11;
+    colorShaderGf.contrast = -10;
+    colorShaderGf.saturation = 28;
+
+    colorShaderDad.brightness = 10;
+    colorShaderDad.hue = 11;
+    colorShaderDad.contrast = -10;
+    colorShaderDad.saturation = 28;
+  }
+
+  function onBeatHit(event:SongTimeScriptEvent):Void
+  {
+    super.onBeatHit(event);
+  }
+
+  function onStepHit(event:SongTimeScriptEvent):Void
+  {
+    super.onStepHit(event);
+  }
+
+  /**
+   * Apply the shader to the character as it is added.
+   */
+  override function addCharacter(character:BaseCharacter, charType:CharacterType):Void
+  {
+    // Apply the shader automatically to each character as it gets added.
+    super.addCharacter(character, charType);
+    trace('Applied stage shader to ' + character.characterName);
+    switch (charType)
+    {
+      case CharacterType.BF:
+        character.shader = colorShaderBf;
+      case CharacterType.DAD:
+        character.shader = colorShaderDad;
+      case CharacterType.GF:
+        character.shader = colorShaderGf;
+    }
+  }
+}

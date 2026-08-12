@@ -1,0 +1,45 @@
+{
+ "version": "2.2.4",
+ "songName": "Spookeez (Diego Mix)",
+ "artist": "TheDanypie",
+ "charter": "DiegozzZ",
+ "offsets": { },
+ "playData": {
+  "difficulties": [
+   "easy",
+   "normal",
+   "hard"
+  ],
+  "characters": {
+   "player": "diego",
+   "girlfriend": "roky",
+   "opponent": "spooky",
+   "instrumental": "diego",
+   "opponentVocals": [
+    "spooky-diego"
+   ],
+   "playerVocals": [
+    "diego"
+   ]
+  },
+  "stage": "SpookyStore",
+  "noteStyle": "frutiger",
+  "ratings": {
+   "easy": 3,
+   "normal": 6,
+   "hard": 11
+  },
+  "album": "volume1diego",
+  "stickerPack": "standard-diego",
+  "previewEnd": 0
+ },
+ "generatedBy": "Friday Night Funkin' - v0.8.5",
+ "timeChanges": [
+  {
+   "t": 0,
+   "b": 0,
+   "bpm": 150,
+   "bt": [4, 4, 4, 4]
+  }
+ ]
+}

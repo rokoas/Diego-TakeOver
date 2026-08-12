@@ -1,0 +1,4 @@
+[
+  { "op": "add", "path": "/playData/songVariations/-", "value": "diego" },
+  { "op": "add", "path": "/playData/songVariations/-", "value": "diego" }
+]

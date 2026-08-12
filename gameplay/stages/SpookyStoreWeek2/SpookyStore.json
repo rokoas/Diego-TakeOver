@@ -1,0 +1,38 @@
+{
+  "props": [
+    {
+      "danceEvery": 0,
+      "zIndex": 0,
+      "position": [-1323, -788],
+      "scale": [0.50, 0.50],
+      "animType": "sparrow",
+      "name": "SpookyStore",
+      "isPixel": false,
+      "assetPath": "gameplay/stages/SpookyStoreWeek2/background_spokky",
+      "scroll": [1.00, 1.00],
+      "animations": []
+    }
+  ],
+  "cameraZoom": 0.55,
+  "version": "1.0.0",
+  "characters": {
+    "bf": {
+      "zIndex": 300,
+      "position": [804, 722],
+      "cameraOffsets": [-31, -92]
+    },
+    "dad": {
+      "zIndex": 200,
+      "position": [-8, 694],
+      "cameraOffsets": [150, -152],
+      "scale": 0.90
+    },
+    "gf": {
+      "zIndex": 100,
+      "cameraOffsets": [-163, -51],
+      "position": [510, 474],
+      "scale": 0.85 
+    }
+  },
+  "name": "Spooky Store [WIP]"
+}

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="rokypixel.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="confirm0000" x="0" y="0" width="48" height="48"/>
+	<SubTexture name="confirm0001" x="48" y="0" width="48" height="48"/>
+	<SubTexture name="confirm0002" x="96" y="0" width="48" height="48"/>
+	<SubTexture name="confirm0003" x="144" y="0" width="48" height="48"/>
+	<SubTexture name="idle0000" x="192" y="0" width="48" height="48"/>
+</TextureAtlas>

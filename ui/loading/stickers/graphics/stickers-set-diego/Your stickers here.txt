@@ -1,0 +1,6 @@
+temple shit:
+
+    "charactername": ["characterSticker1", "characterSticker2", "characterSticker3"],
+
+paste in stickers.json
+below of bf or idk

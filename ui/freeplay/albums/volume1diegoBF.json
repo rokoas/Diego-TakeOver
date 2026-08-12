@@ -1,0 +1,9 @@
+{
+  "version": "1.0.0",
+  "name": "OST DIEGO TAKEOVER Album",
+  "artists": ["!MayerXD", "Bany_Bara", "Komatsuna", "PanchoInAud"],
+  "albumArtAsset": "freeplay/albumRoll/diegoVol1",
+  "albumTitleAsset": "freeplay/albumRoll/diegoVol1-text",
+  "albumTitleOffsets": [-25, 0],
+  "albumOSTName":"Weekback OST"
+}

@@ -1,0 +1,9 @@
+{
+  "version": "1.0.0",
+  "name": "Weekback Erect Album",
+  "artists": ["!MayerXD", "Bany_Bara", "CalacoChido"],
+  "albumArtAsset": "freeplay/albumRoll/diegoVol1ERECT",
+  "albumTitleAsset": "freeplay/albumRoll/diegoVol1ERECT-text",
+  "albumTitleOffsets": [-25, 0],
+  "albumOSTName":"Weekback Erect OST"
+}

@@ -1,0 +1,69 @@
+{
+ "version": "2.2.4",
+ "songName": "Pico (Diego Mix)",
+ "artist": "PanchoInAud",
+ "charter": "DiegozZ + KYROMA",
+ "offsets": { },
+ "playData": {
+  "difficulties": [
+   "easy",
+   "normal",
+   "hard"
+  ],
+  "characters": {
+   "player": "diego",
+   "girlfriend": "roky",
+   "opponent": "pico",
+   "instrumental": "diego",
+   "opponentVocals": [
+    "pico"
+   ],
+   "playerVocals": [
+    "diego"
+   ]
+  },
+  "stage": "phillySubwaySunset",
+  "noteStyle": "frutiger",
+  "ratings": {
+   "easy": 3,
+   "normal": 6,
+   "hard": 9
+  },
+  "album": "volume1diego",
+  "previewStart": 0,
+  "previewEnd": 0
+ },
+ "generatedBy": "Friday Night Funkin' - v0.8.1",
+ "timeChanges": [
+  {
+   "t": 0,
+   "b": 0,
+   "bpm": 150,
+   "bt": [4, 4, 4, 4]
+  },
+  {
+   "t": 5910.5,
+   "b": 14.7763,
+   "bpm": 150,
+   "bt": [4, 4, 4, 4]
+  },
+  {
+   "t": 21622,
+   "b": 54.0551,
+   "bpm": 150,
+   "bt": [4, 4, 4, 4]
+  },
+  {
+   "t": 28917,
+   "b": 72.2926,
+   "bpm": 150,
+   "bt": [4, 4, 4, 4]
+  },
+  {
+   "t": 37774.0001,
+   "b": 94.4351,
+   "bpm": 150,
+   "bt": [4, 4, 4, 4]
+  }
+ ]
+}

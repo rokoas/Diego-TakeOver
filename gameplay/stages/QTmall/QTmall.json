@@ -1,0 +1,37 @@
+{
+  "props": [
+    {
+      "danceEvery": 0,
+      "zIndex": 0,
+      "position": [-1310, -708],
+      "scale": [1.00, 1.00],
+      "animType": "sparrow",
+      "name": "mol",
+      "isPixel": false,
+      "assetPath": "gameplay/stages/QT-mall/mol",
+      "scroll": [1.00, 1.00],
+      "animations": []
+    }
+  ],
+  "cameraZoom": 0.55,
+  "version": "1.0.0",
+  "characters": {
+    "bf": {
+      "zIndex": 300,
+      "position": [1153, 896],
+      "cameraOffsets": [-100, -100]
+    },
+    "dad": {
+      "zIndex": 200,
+      "position": [218.5, 867],
+      "cameraOffsets": [150, -100]
+    },
+    "gf": {
+      "zIndex": 100,
+      "cameraOffsets": [-154, -83],
+      "position": [780.55, 785.2],
+      "scale": [0.90]  
+    }
+  },
+  "name": "QTMall [Diego]"
+}

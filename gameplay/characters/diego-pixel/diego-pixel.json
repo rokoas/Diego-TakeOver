@@ -1,0 +1,83 @@
+{
+  "version": "1.0.1",
+  "name": "Diego (Pixel)",
+  "assetPath": "gameplay/characters/diego-pixel/Roko_Pixel",
+  "flipX": true,
+  "renderType": "multisparrow",
+  "singTime": 8.0,
+  "isPixel": true,
+  "healthIcon": {
+    "id": "diego-pixel",
+    "isPixel": true
+  },
+  "death": {
+    "cameraOffsets": [0, 0]
+  },
+  "scale": 5.5,
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "idle_10",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singUP",
+      "prefix": "up_10",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "left_10",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "right_10",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "down_10",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singUPmiss",
+      "prefix": "upMiss_10",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singLEFTmiss",
+      "prefix": "leftMiss_10",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singRIGHTmiss",
+      "prefix": "rightMiss_10",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singDOWNmiss",
+      "prefix": "downMiss_10",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "firstDeath",
+      "prefix": "BF Dies pixel",
+      "assetPath": "characters/bfPixelsDEAD",
+      "offsets": [8.33, 0]
+    },
+    {
+      "name": "deathLoop",
+      "prefix": "Retry Loop",
+      "assetPath": "characters/bfPixelsDEAD",
+      "looped": true,
+      "offsets": [3.33, -2.08]
+    },
+    {
+      "name": "deathConfirm",
+      "prefix": "RETRY CONFIRM",
+      "assetPath": "characters/bfPixelsDEAD",
+      "offsets": [3.33, -2.08]
+    }
+  ]
+}

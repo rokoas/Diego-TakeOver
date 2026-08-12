@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="highscore_diego.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="highscore small0000" x="0" y="0" width="366" height="53"/>
+	<SubTexture name="highscore small0001" x="0" y="0" width="366" height="53"/>
+	<SubTexture name="highscore small0002" x="0" y="0" width="366" height="53"/>
+	<SubTexture name="highscore small0003" x="0" y="0" width="366" height="53"/>
+	<SubTexture name="highscore small0004" x="0" y="0" width="366" height="53"/>
+	<SubTexture name="highscore small0005" x="0" y="0" width="366" height="53"/>
+	<SubTexture name="highscore small0006" x="366" y="0" width="366" height="53"/>
+	<SubTexture name="highscore small0007" x="366" y="0" width="366" height="53"/>
+	<SubTexture name="highscore small0008" x="0" y="53" width="366" height="53"/>
+	<SubTexture name="highscore small0009" x="0" y="53" width="366" height="53"/>
+	<SubTexture name="highscore small0010" x="366" y="53" width="366" height="53"/>
+	<SubTexture name="highscore small0011" x="366" y="53" width="366" height="53"/>
+	<SubTexture name="highscore small0012" x="0" y="106" width="366" height="53"/>
+	<SubTexture name="highscore small0013" x="366" y="106" width="366" height="53"/>
+	<SubTexture name="highscore small0014" x="0" y="159" width="366" height="53"/>
+	<SubTexture name="highscore small0015" x="366" y="159" width="366" height="53"/>
+	<SubTexture name="highscore small0016" x="0" y="212" width="366" height="53"/>
+	<SubTexture name="highscore small0017" x="0" y="212" width="366" height="53"/>
+	<SubTexture name="highscore small0018" x="366" y="212" width="366" height="53"/>
+	<SubTexture name="highscore small0019" x="366" y="212" width="366" height="53"/>
+	<SubTexture name="highscore small0020" x="0" y="265" width="366" height="53"/>
+	<SubTexture name="highscore small0021" x="0" y="265" width="366" height="53"/>
+	<SubTexture name="highscore small0022" x="366" y="265" width="366" height="53"/>
+	<SubTexture name="highscore small0023" x="366" y="265" width="366" height="53"/>
+	<SubTexture name="highscore small0024" x="0" y="0" width="366" height="53"/>
+	<SubTexture name="highscore small0025" x="0" y="0" width="366" height="53"/>
+	<SubTexture name="highscore small0026" x="0" y="0" width="366" height="53"/>
+</TextureAtlas>

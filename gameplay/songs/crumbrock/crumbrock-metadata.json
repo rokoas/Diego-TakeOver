@@ -1,0 +1,45 @@
+{
+ "version": "2.2.4",
+ "songName": "Crumbrock (W.I.P)",
+ "artist": "Alter_B4ra (ft. Aurora)",
+ "charter": "DiegozZ",
+ "offsets": { },
+ "playData": {
+  "difficulties": [
+   "easy",
+   "normal",
+   "hard"
+  ],
+  "characters": {
+   "player": "bf",
+   "girlfriend": "gf-dark",
+   "opponent": "diego-oponent",
+   "opponentVocals": [
+    "dad"
+   ],
+   "playerVocals": [
+    "bf"
+   ]
+  },
+  "stage": "newJerkHall",
+  "noteStyle": "funkin",
+  "album": "volume1diegoBF",
+  "stickerPack": "week-Dg-standard",
+  "ratings": {
+   "easy": 2,
+   "normal": 4,
+   "hard": 8
+  },
+  "previewStart": 0,
+  "previewEnd": 60
+ },
+ "generatedBy": "Friday Night Funkin' - v0.8.4",
+ "timeChanges": [
+  {
+   "t": 0,
+   "b": 0,
+   "bpm": 176,
+   "bt": [4, 4, 4, 4]
+  }
+ ]
+}

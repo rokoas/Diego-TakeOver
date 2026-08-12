@@ -1,0 +1,67 @@
+{
+ "version": "2.2.4",
+ "songName": "Bopeebo (Diego Mix)",
+ "artist": "KYROMA",
+ "charter": "DiegozZz + KYROMA",
+ "offsets": {
+  "vocals": {
+   "diego": 0
+  }
+ },
+ "playData": {
+  "difficulties": [
+   "easy",
+   "normal",
+   "hard"
+  ],
+  "characters": {
+   "player": "diego",
+   "girlfriend": "roky",
+   "opponent": "dad",
+   "instrumental": "diego",
+   "opponentVocals": [
+    "dad"
+   ],
+   "playerVocals": [
+    "bf"
+   ]
+  },
+  "stage": "Theather",
+  "noteStyle": "frutiger",
+  "ratings": {
+   "easy": 1,
+   "normal": 3,
+   "hard": 5
+  },
+  "album": "volume1diego",
+  "previewStart": 0,
+  "previewEnd": 0
+ },
+ "generatedBy": "Friday Night Funkin' - v0.8.3",
+ "timeChanges": [
+  {
+   "t": 0,
+   "b": 0,
+   "bpm": 104,
+   "bt": [4, 4, 4, 4]
+  },
+  {
+   "t": 45261,
+   "b": 78.4524,
+   "bpm": 100,
+   "bt": [4, 4, 4, 4]
+  },
+  {
+   "t": 61466,
+   "b": 105.4607,
+   "bpm": 100,
+   "bt": [4, 4, 4, 4]
+  },
+  {
+   "t": 67306,
+   "b": 115.194,
+   "bpm": 100,
+   "bt": [4, 4, 4, 4]
+  }
+ ]
+}

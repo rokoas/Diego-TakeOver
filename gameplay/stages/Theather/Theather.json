@@ -1,0 +1,172 @@
+{
+  "props": [
+    {
+      "danceEvery": 0,
+      "zIndex": 1,
+      "position": [-866, -1132],
+      "scale": [1.0, 1.0],
+      "animType": "sparrow",
+      "name": "Backseats",
+      "isPixel": false,
+      "assetPath": "gameplay/stages/Theather/BACKseats",
+      "scroll": [1.0, 1.0],
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 2,
+      "position": [-621, 100],
+      "scale": [1.0, 1.0],
+      "animType": "sparrow",
+      "name": "PEOPLE3",
+      "isPixel": false,
+      "assetPath": "gameplay/stages/Theather/people3",
+      "scroll": [1.0, 1.0],
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 3,
+      "position": [-105, 199],
+      "scale": [1.0, 1.0],
+      "animType": "sparrow",
+      "name": "PEOPLE2",
+      "isPixel": false,
+      "assetPath": "gameplay/stages/Theather/people2",
+      "scroll": [1.0, 1.0],
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 4,
+      "position": [-404, 457],
+      "scale": [1.0, 1.0],
+      "animType": "sparrow",
+      "name": "PEOPLE1",
+      "isPixel": false,
+      "assetPath": "gameplay/stages/Theather/pepople1",
+      "scroll": [1.0, 1.0],
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 500,
+      "position": [1350, 532],
+      "scale": [1.0, 1.0],
+      "animType": "sparrow",
+      "name": "luz1",
+      "isPixel": false,
+      "blend": "screen",
+      "assetPath": "gameplay/stages/Theather/luz1",
+      "scroll": [1.0, 1.0],
+      "alpha": 0.25,
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 500,
+      "position": [-314, 527],
+      "scale": [1.0, 1.0],
+      "animType": "sparrow",
+      "name": "luz2",
+      "isPixel": false,
+      "blend": "screen",
+      "assetPath": "gameplay/stages/Theather/luz2",
+      "scroll": [1.0, 1.0],
+      "alpha": 0.25,
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 5,
+      "position": [-1913, 703],
+      "scale": [1.0, 1.0],
+      "animType": "sparrow",
+      "name": "Ground",
+      "isPixel": false,
+      "assetPath": "gameplay/stages/Theather/ground",
+      "scroll": [1.0, 1.0],
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 6,
+      "position": [-685, -933],
+      "scale": [1.0, 1.0],
+      "animType": "sparrow",
+      "name": "Speaker1",
+      "isPixel": false,
+      "assetPath": "gameplay/stages/Theather/speaker1",
+      "scroll": [1.05, 1.0],
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 7,
+      "position": [1136, -1073],
+      "scale": [1.0, 1.0],
+      "animType": "sparrow",
+      "name": "Speaker2",
+      "isPixel": false,
+      "assetPath": "gameplay/stages/Theather/speaker2",
+      "scroll": [1.05, 1.0],
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 8,
+      "position": [-1591, -1127],
+      "scale": [1.0, 1.0],
+      "animType": "sparrow",
+      "name": "Curtain1",
+      "isPixel": false,
+      "assetPath": "gameplay/stages/Theather/Curtain1",
+      "scroll": [1.0, 1.0],
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 9,
+      "position": [1606, -1113],
+      "scale": [1.0, 1.0],
+      "animType": "sparrow",
+      "name": "Curtain2",
+      "isPixel": false,
+      "assetPath": "gameplay/stages/Theather/Curtain2",
+      "scroll": [1.0, 1.0],
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 10,
+      "position": [1784, 838],
+      "scale": [1.20, 1.20],
+      "animType": "sparrow",
+      "name": "Sonicshie",
+      "isPixel": false,
+      "assetPath": "gameplay/stages/Theather/sonicPLUSHIE",
+      "scroll": [1.0, 1.0],
+      "animations": []
+    }
+  ],
+  "cameraZoom": 0.4,
+  "version": "1.0.0",
+  "characters": {
+    "bf": {
+      "zIndex": 300,
+      "position": [1137, 959],
+      "cameraOffsets": [-57, -100]
+    },
+    "dad": {
+      "zIndex": 200,
+      "position": [120, 886],
+      "cameraOffsets": [-15, -58]
+    },
+    "gf": {
+      "zIndex": 100,
+      "cameraOffsets": [-15, -246],
+      "position": [751.5, 859]
+    }
+  },
+  "name": "Theather [WIP]"
+}

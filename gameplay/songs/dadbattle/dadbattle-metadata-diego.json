@@ -1,0 +1,81 @@
+{
+ "version": "2.2.4",
+ "songName": "DadBattle (Diego Mix)",
+ "artist": "DETOUR",
+ "charter": "Cuppuhead + DiegozZ",
+ "divisions": 96,
+ "looped": false,
+ "offsets": {
+  "instrumental": 0,
+  "altInstrumentals": {  },
+  "vocals": {  },
+  "altVocals": {  }
+ },
+ "playData": {
+  "songVariations": [],
+  "difficulties": [
+   "easy",
+   "normal",
+   "hard"
+  ],
+  "characters": {
+   "player": "diego",
+   "girlfriend": "roky",
+   "opponent": "dad",
+   "instrumental": "diego",
+   "altInstrumentals": [],
+   "opponentVocals": [
+    "dad-diego"
+   ],
+   "playerVocals": [
+    "diego"
+   ]
+  },
+  "stage": "Theather",
+  "noteStyle": "frutiger",
+  "album": "volume1diego",
+  "ratings": {
+   "easy": 4,
+   "normal": 6,
+   "hard": 11
+  },
+  "previewStart": 0,
+  "previewEnd": 0
+ },
+ "generatedBy": "Friday Night Funkin' - v0.8.1",
+ "timeFormat": "ms",
+ "timeChanges": [
+  {
+   "t": 0,
+   "b": 0,
+   "bpm": 180,
+   "n": 4,
+   "d": 4,
+   "bt": [4, 4, 4, 4]
+  },
+  {
+   "t": 25219.6667,
+   "b": 75.659,
+   "bpm": 180,
+   "n": 4,
+   "d": 4,
+   "bt": [4, 4, 4, 4]
+  },
+  {
+   "t": 29372.1667,
+   "b": 88.1165,
+   "bpm": 180,
+   "n": 4,
+   "d": 4,
+   "bt": [4, 4, 4, 4]
+  },
+  {
+   "t": 67034.7104,
+   "b": 201.1041,
+   "bpm": 180,
+   "n": 4,
+   "d": 4,
+   "bt": [4, 4, 4, 4]
+  }
+ ]
+}

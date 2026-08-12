@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="capsule-diego.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="mp3 capsule w backing0000" x="0" y="0" width="616" height="138"/>
+	<SubTexture name="mp3 capsule w backing0001" x="0" y="0" width="616" height="138"/>
+	<SubTexture name="mp3 capsule w backing0002" x="616" y="0" width="616" height="138"/>
+	<SubTexture name="mp3 capsule w backing0003" x="616" y="0" width="616" height="138"/>
+	<SubTexture name="mp3 capsule w backing0004" x="1232" y="0" width="616" height="138"/>
+	<SubTexture name="mp3 capsule w backing0005" x="1232" y="0" width="616" height="138"/>
+	<SubTexture name="mp3 capsule w backing0006" x="0" y="138" width="616" height="138"/>
+	<SubTexture name="mp3 capsule w backing0007" x="0" y="138" width="616" height="138"/>
+	<SubTexture name="mp3 capsule w backing NOT SELECTED0000" x="616" y="138" width="606" height="139"/>
+	<SubTexture name="mp3 capsule w backing NOT SELECTED0001" x="616" y="138" width="606" height="139"/>
+	<SubTexture name="mp3 capsule w backing NOT SELECTED0002" x="1222" y="138" width="606" height="139"/>
+	<SubTexture name="mp3 capsule w backing NOT SELECTED0003" x="1222" y="138" width="606" height="139"/>
+	<SubTexture name="mp3 capsule w backing NOT SELECTED0004" x="0" y="277" width="606" height="139"/>
+	<SubTexture name="mp3 capsule w backing NOT SELECTED0005" x="0" y="277" width="606" height="139"/>
+	<SubTexture name="mp3 capsule w backing NOT SELECTED0006" x="606" y="277" width="606" height="139"/>
+	<SubTexture name="mp3 capsule w backing NOT SELECTED0007" x="606" y="277" width="606" height="139"/>
+</TextureAtlas>

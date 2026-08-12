@@ -1,1 +1,1 @@
-"# Diego-TakeOver" 
+This cool ass mod where diego and his pet roky get on rapbattle yeah soo yeah jijijiji <img width="573" height="619" alt="HIE9jm9XMAAqQ_E" src="https://github.com/user-attachments/assets/95e89e13-5532-4ddb-b06a-792b1ff20063" />

@@ -1,0 +1,157 @@
+{
+  "props": [
+    {
+      "danceEvery": 0,
+      "zIndex": 1,
+      "position": [-1500, -962],
+      "scale": [2.25, 2.25],
+      "animType": "sparrow",
+      "name": "sky",
+      "isPixel": false,
+      "assetPath": "gameplay/stages/newJerkSTREET/sky_box",
+      "scroll": [0.80, 0.80],
+      "animations": []
+    },
+        {
+      "danceEvery": 0,
+      "zIndex": 2,
+      "position": [-1487, -1007],
+      "scale": [2.25, 2.25],
+      "animType": "sparrow",
+      "name": "backcity",
+      "isPixel": false,
+      "assetPath": "gameplay/stages/newJerkSTREET/backcity",
+      "scroll": [0.90, 0.90],
+      "animations": []
+    },
+        {
+      "danceEvery": 0,
+      "zIndex": 3,
+      "position": [-1494, -1007],
+      "scale": [2.25, 2.25],
+      "animType": "sparrow",
+      "name": "cloud",
+      "isPixel": false,
+      "assetPath": "gameplay/stages/newJerkSTREET/clouds",
+      "scroll": [0.80, 0.70],
+      "animations": []
+    },
+            {
+      "danceEvery": 0,
+      "zIndex": 4,
+      "position": [-1491, -989],
+      "scale": [2.25, 2.25],
+      "animType": "sparrow",
+      "name": "GROUND",
+      "isPixel": false,
+      "assetPath": "gameplay/stages/newJerkSTREET/ground",
+      "scroll": [1.00, 1.00],
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 5,
+      "position": [-1490, -986],
+      "scale": [2.25, 2.25],
+      "animType": "sparrow",
+      "name": "notfarbuild",
+      "isPixel": false,
+      "assetPath": "gameplay/stages/newJerkSTREET/notfarbuilding",
+      "scroll": [1.00, 1.00],
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 6,
+      "position": [-1493, -984],
+      "scale": [2.25, 2.25],
+      "animType": "sparrow",
+      "name": "frontstores1",
+      "isPixel": false,
+      "assetPath": "gameplay/stages/newJerkSTREET/frontstores_2",
+      "scroll": [1.00, 1.00],
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 7,
+      "position": [-1483, -964],
+      "scale": [2.25, 2.25],
+      "animType": "sparrow",
+      "name": "frontstores2",
+      "isPixel": false,
+      "assetPath": "gameplay/stages/newJerkSTREET/frontstores",
+      "scroll": [1.00, 1.00],
+      "animations": []
+    },
+        {
+      "danceEvery": 0,
+      "zIndex": 8,
+      "position": [-1486, -996],
+      "scale": [2.25, 2.25],
+      "animType": "sparrow",
+      "name": "trash",
+      "isPixel": false,
+      "assetPath": "gameplay/stages/newJerkSTREET/trash",
+      "scroll": [0.95, 0.95],
+      "animations": []
+    },
+        {
+      "danceEvery": 0,
+      "zIndex": 125,
+      "position": [-1492, -980],
+      "scale": [2.25, 2.25],
+      "animType": "sparrow",
+      "name": "twtrandtheGOAT",
+      "isPixel": false,
+      "assetPath": "gameplay/stages/newJerkSTREET/thegoat_trash",
+      "scroll": [1.00, 1.00],
+      "animations": []
+    },
+            {
+      "danceEvery": 0,
+      "zIndex": 20,
+      "position": [-1497, -978],
+      "scale": [2.25, 2.25],
+      "animType": "sparrow",
+      "name": "wallfront2",
+      "isPixel": false,
+      "assetPath": "gameplay/stages/newJerkSTREET/wallfront2",
+      "scroll": [1.00, 1.00],
+      "animations": []
+    },
+            {
+      "danceEvery": 0,
+      "zIndex": 20,
+      "position": [-1490, -1005],
+      "scale": [2.25, 2.25],  
+      "animType": "sparrow",
+      "name": "wallfront1",
+      "isPixel": false,
+      "assetPath": "gameplay/stages/newJerkSTREET/wallfront1",
+      "scroll": [1.00, 1.00],
+      "animations": []
+    }
+  ],
+  "cameraZoom": 0.40,
+  "version": "1.0.0",
+  "characters": {
+    "bf": {
+      "zIndex": 300,
+      "position": [1298, 660],
+      "cameraOffsets": [22, 3]
+    },
+    "dad": {
+      "zIndex": 200,
+      "position": [271, 722],
+      "cameraOffsets": [91, -100]
+    },
+    "gf": {
+      "zIndex": 100,
+      "cameraOffsets": [5, 54],
+      "position": [766.45, 415.6],
+      "scale": 0.90
+    }
+  },
+  "name": "newJerkSTREET"
+}

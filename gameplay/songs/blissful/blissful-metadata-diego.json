@@ -1,0 +1,27 @@
+{
+  "version": "2.2.4",
+  "songName": "Blissful (Diego Mix)",
+  "artist": "PanchoInAud",
+  "charter": "DiegozZ",
+  "timeFormat": "ms",
+  "divisions": 96,
+  "offsets": {"instrumental": 0},
+  "timeChanges": [{ "t": 0, "bpm": 138, "n": 4, "d": 4, "bt": [4, 4, 4, 4] }],
+  "looped": false,
+  "playData": {
+    "songVariations": [],
+    "difficulties": ["easy", "normal", "hard"],
+    "characters": {
+      "player": "diego","girlfriend": "roky","opponent": "qt",
+      "instrumental": "diego","playerVocals": ["diego"],"opponentVocals": ["qt"], "altInstrumentals": ["pico",""]
+    },
+    "stage": "QTMall",
+    "noteStyle": "frutiger",
+    "ratings": { "easy": 4, "normal": 6, "hard": 7},
+    "album": "volume1diego",
+    "stickerPack": "QT-diego"
+  },
+  "previewStart": 0,
+  "previewEnd": 15000,
+  "generatedBy": "DiegozZ (by hand)"
+}

@@ -1,0 +1,264 @@
+{
+  "props": [
+    {
+      "danceEvery": 0,
+      "zIndex": 50,
+      "position": [-1307, -665],
+      "scale": [1.00, 1.00],
+      "animType": "sparrow",
+      "name": "Ozzo",
+      "isPixel": false,
+      "assetPath": "gameplay/stages/Ozzo-Weekend/ozzo",
+      "scroll": [1.00, 1.00],
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 45,
+      "position": [589.5, -69.5],
+      "scale": [1.00, 1.00],
+      "animType": "sparrow",
+      "name": "OzzoInside",
+      "isPixel": false,
+      "assetPath": "gameplay/stages/Ozzo-Weekend/ozzoInside",
+      "scroll": [0.98, 1.00],
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 5,
+      "position": [-1150, -550],
+      "scale": [1.00, 0.6],
+      "animType": "sparrow",
+      "name": "SkyBox",
+      "isPixel": false,
+      "assetPath": "gameplay/stages/Ozzo-Weekend/skyBox",
+      "scroll": [0.30, 0.30],
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 8,
+      "position": [-1200, -350],
+      "scale": [1.00, 1.00],
+      "animType": "sparrow",
+      "name": "CityBack",
+      "isPixel": false,
+      "assetPath": "gameplay/stages/Ozzo-Weekend/cityBack",
+      "scroll": [0.47, 0.47],
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 10,
+      "position": [-1229, -510],
+      "scale": [1.00, 1.00],
+      "animType": "sparrow",
+      "name": "CityFront",
+      "isPixel": false,
+      "assetPath": "gameplay/stages/Ozzo-Weekend/cityFront",
+      "scroll": [0.67, 0.67],
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 40,
+      "position": [-345, 30],
+      "scale": [1, 1],
+      "animType": "sparrow",
+      "name": "phillyTraffic",
+      "isPixel": false,
+      "flipX": true,
+      "assetPath": "gameplay/stages/Ozzo-Weekend/phillyTraffic",
+      "scroll": [0.9, 1],
+      "alpha": 1,
+      "animations": [
+        {
+          "name": "togreen",
+          "prefix": "redtogreen",
+          "frameRate": 24,
+          "flipX": false,
+          "flipY": false
+        },
+        {
+          "name": "tored",
+          "prefix": "greentored",
+          "frameRate": 24,
+          "flipX": false,
+          "flipY": false
+        }
+      ]
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 90,
+      "position": [-345, 30],
+      "scale": [1, 1],
+      "animType": "sparrow",
+      "name": "phillyTraffic_lightmap",
+      "isPixel": false,
+      "flipX": true,
+      "assetPath": "gameplay/stages/Ozzo-Weekend/phillyTraffic_lightmap",
+      "scroll": [0.9, 1],
+      "alpha": 1,
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 42,
+      "position": [-78, -78],
+      "scale": [1, 1],
+      "animType": "sparrow",
+      "name": "phillyCars",
+      "isPixel": false,
+      "assetPath": "gameplay/stages/Ozzo-Weekend/phillyCars",
+      "scroll": [0.9, 1],
+      "alpha": 1,
+      "animations": [
+        {
+          "name": "car1",
+          "offsets": [0, 0],
+          "prefix": "car1",
+          "frameRate": 24,
+          "flipX": true,
+          "flipY": false
+        },
+        {
+          "name": "car2",
+          "prefix": "car2",
+          "frameRate": 24,
+          "flipX": true,
+          "flipY": false,
+          "offsets": [0, 0]
+        },
+        {
+          "name": "car3",
+          "offsets": [0, 0],
+          "prefix": "car3",
+          "frameRate": 24,
+          "flipX": true,
+          "flipY": false
+        },
+        {
+          "name": "car4",
+          "offsets": [0, 0],
+          "prefix": "car4",
+          "frameRate": 24,
+          "flipX": true,
+          "flipY": false
+        }
+      ]
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 42,
+      "position": [-78, -78],
+      "scale": [1, 1],
+      "animType": "sparrow",
+      "name": "phillyCars2",
+      "isPixel": false,
+      "assetPath": "gameplay/stages/Ozzo-Weekend/phillyCars",
+      "scroll": [0.9, 1],
+      "alpha": 1,
+      "animations": [
+        {
+          "name": "car1",
+          "offsets": [0, 0],
+          "prefix": "car1",
+          "frameRate": 24,
+          "flipX": true,
+          "flipY": false
+        },
+        {
+          "name": "car2",
+          "prefix": "car2",
+          "frameRate": 24,
+          "flipX": true,
+          "flipY": false,
+          "offsets": [0, 0]
+        },
+        {
+          "name": "car3",
+          "offsets": [0, 0],
+          "prefix": "car3",
+          "frameRate": 24,
+          "flipX": true,
+          "flipY": false
+        },
+        {
+          "name": "car4",
+          "offsets": [0, 0],
+          "prefix": "car4",
+          "frameRate": 24,
+          "flipX": true,
+          "flipY": false
+        }
+      ]
+    },
+    {
+      "danceEvery": 2,
+      "zIndex": 45,
+      "position": [500, -450],
+      "scale": [0.9, 0.9],
+      "animType": "sparrow",
+      "name": "Monster",
+      "isPixel": false,
+      "assetPath": "gameplay/stages/Ozzo-Weekend/monster/monster",
+      "scroll": [1, 1],
+      "alpha": 1,
+      "animations": [
+        {
+          "name": "idle",
+          "prefix": "monster",
+          "frameRate": 12,
+          "looped": true,
+          "flipX": false,
+          "flipY": false
+        }
+      ]
+    },
+    {
+      "danceEvery": 2,
+      "zIndex": 51,
+      "position": [500, -220],
+      "scale": [0.9, 0.9],
+      "animType": "sparrow",
+      "name": "MonsterHands",
+      "isPixel": false,
+      "assetPath": "gameplay/stages/Ozzo-Weekend/monster/hands",
+      "scroll": [1, 1],
+      "alpha": 1,
+      "animations": [
+        {
+          "name": "idle",
+          "prefix": "hand",
+          "frameRate": 12,
+          "looped": true,
+          "flipX": false,
+          "flipY": false
+        }
+      ]
+    }
+  ],
+  "cameraZoom": 0.50,
+  "version": "1.0.0",
+  "characters": {
+    "bf": {
+      "zIndex": 400,
+      "position": [1100, 810],
+      "cameraOffsets": [-100, -100]
+    },
+    "gf": {
+      "zIndex": 300,
+      "position": [550, 635],
+      "cameraOffsets": [-25, 42],
+      "scale": 0.90
+    },
+    "dad": {
+      "zIndex": 350,
+      "position": [50, 900],
+      "cameraOffsets": [67, -58]
+    }
+  },
+  "name": "OzzO [NEW] (Night)"
+}

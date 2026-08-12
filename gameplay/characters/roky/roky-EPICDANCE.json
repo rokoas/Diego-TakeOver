@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "name": "Roky",
+  "assetPath": "characters/rokyPLACEDANCE",
+  "startingAnimation": "danceRight",
+  "offsets": [0, -9],
+  "singTime": 8.0,
+  "animations": [
+    {
+      "name": "EpicDance",
+      "prefix": "rokyEPICDANCE",
+      "looped": true,
+      "offsets": [0, -9]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+ "version": "2.2.4",
+ "songName": "Satin Panties (Diego Mix)",
+ "artist": "KYROMA (ft. PanchoInAud)",
+ "charter": "DiegozZ + KYROMA",
+ "offsets": { },
+ "playData": {
+  "difficulties": [
+   "easy",
+   "normal",
+   "hard"
+  ],
+  "characters": {
+   "player": "diego",
+   "girlfriend": "roky",
+   "opponent": "mom-car",
+   "instrumental": "diego",
+   "altInstrumentals": [],
+   "opponentVocals": [
+    "mom"
+   ],
+   "playerVocals": [
+    "diego"
+   ]
+  },
+  "stage": "limoRideErect",
+  "noteStyle": "frutiger",
+  "ratings": {
+   "easy": 5,
+   "normal": 7,
+   "hard": 10
+  },
+  "album": "volume1diego",
+  "previewStart": 0,
+  "previewEnd": 0
+ },
+ "generatedBy": "Friday Night Funkin' - v0.8.3",
+ "timeChanges": [
+  {
+   "t": 0,
+   "b": 0,
+   "bpm": 113.5,
+   "bt": [4, 4, 4, 4]
+  },
+  {
+   "t": 14296.2071,
+   "b": 27.0437,
+   "bpm": 113.5,
+   "bt": [4, 4, 4, 4]
+  },
+  {
+   "t": 36239.0001,
+   "b": 68.5522,
+   "bpm": 113.5,
+   "bt": [4, 4, 4, 4]
+  },
+  {
+   "t": 37220.0001,
+   "b": 70.4079,
+   "bpm": 113.5,
+   "bt": [4, 4, 4, 4]
+  },
+  {
+   "t": 54938.2071,
+   "b": 103.9248,
+   "bpm": 113.5,
+   "bt": [4, 4, 4, 4]
+  },
+  {
+   "t": 70097.0001,
+   "b": 132.6002,
+   "bpm": 113.5,
+   "bt": [4, 4, 4, 4]
+  },
+  {
+   "t": 107916.2072,
+   "b": 204.1415,
+   "bpm": 113.5,
+   "bt": [4, 4, 4, 4]
+  }
+ ]
+}
