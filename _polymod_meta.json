@@ -1,0 +1,100 @@
+{
+    "title": "Roko/Diego TAKEOVER",
+    "description": "In this awesome mod you can play against your friendly mate Diego, that even if youre good with him you will have the honor to play as him and confront the main FNF cast in his own way",
+    "author": "DiegozZ",
+    "contributors": [
+    {
+      "name": "DiegozZ",
+      "role": "Director + Artist + Composer + Programer + Charter + Chromatic Scale + Playtester + Empanada",
+      "url": "https://x.com/ZzzRoko"
+    },
+        {
+      "name": "Dillex",
+      "role": "Co-Director & Playtester",
+      "url": "https://x.com/Dillexito"
+    },
+    {
+      "name": "BryanJo",
+      "role": "Artist",
+        "url": "https://x.com/BryanJo97527502"
+    },
+    {
+      "name": "Artux",
+      "role": "Main Sprite Artist",
+      "url": "https://x.com/Art_uroxxo"
+    },
+    {
+      "name": "Desherr",
+      "role": "Artist + Coder + Charter",
+        "url": "https://x.com/Desherr254"
+    },
+    {
+      "name": "!Mayer",
+      "role": "Artist",
+      "url": "https://x.com/Mayerxd_1"
+    },
+    {
+      "name": "Bushed",
+      "role": "Artist",
+        "url": "https://x.com/B7sh3d_art"
+    },
+    {
+      "name": "Mili Blacking",
+      "role": "BG Artist",
+      "url": "https://x.com/MIli_BlackingQF"
+    },
+    {
+      "name": "Pepardo",
+      "role": "Concept Artist",
+      "url": "https://x.com/P3P4RD0"
+    },
+    {
+      "name": "Calaco",
+      "role": "Composer",
+      "url": "https://x.com/Calaco_Chido"
+    },
+    {
+      "name": "kyr0ma",
+      "role": "Composer + Playtester",
+      "url": "https://x.com/cartidropstoday"
+    },
+    {
+      "name": "PanchoInAud",
+      "role": "Composer",
+      "url": "https://x.com/PanchoInAud"
+    },
+    {
+      "name": "totallyzari",
+      "role": "Composer + Playtester  ",
+      "discord": "totallyzari on Discord"
+    },
+    {
+      "name": "Alter_B4ra",
+      "role": "Composer",
+      "url": "https://x.com/Altafacha77xD"
+    },
+    {
+      "name": "DaOneJuda",
+      "role": "Composer + Composer of the Ranking music",
+      "url": "https://x.com/DaOneJuda"
+    },
+     {
+      "name": "DETOUR",
+      "role": "Composer + Composer of the BREAKFAST music + Playtester",
+      "url": "https://x.com/d3tourd3"
+    },
+     {
+      "name": "Komatsuna",
+      "role": "Composer",
+      "url": "https://x.com/skomatpersonal"
+    },
+     {
+      "name": "Hemlockk_ / Telmex",
+      "role": "Charter + Playtester",
+      "url": "https://x.com/TelmexCedric"
+    }
+  ],
+    "api_version": "0.8.5",
+    "mod_version": "0.6.1",
+    "license": "CC BY 4.0,MIT"
+}
