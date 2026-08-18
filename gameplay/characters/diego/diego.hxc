@@ -20,7 +20,7 @@ class DiegoCharacter extends MultiAnimateAtlasCharacter
 		super.onCreate(event);
 		
 		GameOverSubState.musicSuffix = '-diego';
-		GameOverSubState.blueBallSuffix = '-diego';
+        GameOverSubState.blueBallSuffix = '-diego';
 
 		PauseSubState.musicSuffix = '-diego';
 	}
@@ -76,10 +76,9 @@ class DiegoCharacter extends MultiAnimateAtlasCharacter
 
 		// Reset to standard death animation.
 		GameOverSubState.musicSuffix = '-diego';
-		GameOverSubState.blueBallSuffix = '-diego';
+        GameOverSubState.blueBallSuffix = '-diego';
 
-		PauseSubState.musicSuffix = '-pico';
-
+		PauseSubState.musicSuffix = '-diego';
 		this.visible = true;
 	}
 

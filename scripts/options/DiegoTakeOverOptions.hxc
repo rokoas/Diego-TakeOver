@@ -1,0 +1,95 @@
+import funkin.modding.ModStore;
+import flixel.util.FlxSave;
+import Array;
+
+// original code from Spooky mixes
+
+class DiegoTakeOverOptions
+{
+  public static var diegoMenu(get, set):String;
+  public static var diegoShaders(get, set):Bool;
+  public static var defaultStartupCharacter(get, set):String;
+  public static var rememberedStartupCharacter(get, set):String;
+
+  static function set_diegoTakeOverMenu(value:String):String
+  {
+    save.data.DiegoTakeOverMenu = value;
+    flush();
+    return save.data.DiegoTakeOverMenu;
+  }
+
+  static function get_diegoTakeOverMenu():String
+  {
+    return save.data.DiegoTakeOverMenu;
+  }
+
+  static function set_diegoShaders(value:Bool):Bool
+  {
+    save.data.diegoShaders = value;
+    flush();
+    return save.data.diegoShaders;
+  }
+
+  static function get_diegoShaders():Bool
+  {
+    return save.data.diegoShaders;
+  }
+
+  static function set_defaultStartupCharacter(value:String):String
+  {
+    save.data.defaultStartupCharacter = value;
+    flush();
+    return save.data.defaultStartupCharacter;
+  }
+
+  static function get_defaultStartupCharacter():String
+  {
+    return save.data.defaultStartupCharacter;
+  }
+
+  static function set_rememberedStartupCharacter(value:String):String
+  {
+    save.data.rememberedStartupCharacter = value;
+    flush();
+    return save.data.rememberedStartupCharacter;
+  }
+
+  static function get_rememberedStartupCharacter():String
+  {
+    return save.data.rememberedStartupCharacter;
+  }
+
+  public static var save(get, never):FlxSave;
+
+  static function get_save():FlxSave
+  {
+    var save:FlxSave = ModStore.get('DiegoTakeOverOptions');
+
+    if (save == null)
+    {
+      save = new FlxSave();
+      save.bind("DiegoTakeOverOptions", "FunkinCrew");
+      save.mergeData(getDefaultSave(), false);
+      ModStore.register('DiegoTakeOverOptions', save);
+    }
+
+    return save;
+  }
+
+  public static function flush():Void
+  {
+    save.flush();
+    trace('[DIEGO] Updated "DiegoTakeOverOptions.sol" on local disk.');
+  }
+
+  static function getDefaultSave():Dynamic
+  {
+    return {
+      DiegoTakeOverMenu: 'Always On',
+      diegoShaders: true,
+
+      defaultStartupCharacter: null,
+      rememberedStartupCharacter: 'bf'
+    };
+  }
+}

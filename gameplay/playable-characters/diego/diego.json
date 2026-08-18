@@ -75,12 +75,12 @@
   },
   "results": {
     "music": {
-      "PERFECT_GOLD": "gameplay/playable-characters/diego/results/music/results-perfect/resultsPERFECT-diego",
-      "PERFECT": "gameplay/playable-characters/diego/results/music/results-perfect/resultsPERFECT-diego",
-      "EXCELLENT": "gameplay/playable-characters/diego/results/music/results-excellent/resultsEXCELLENT-diego",
-      "GREAT": "gameplay/playable-characters/diego/results/music/results-good/resultsNORMAL-diego",
-      "GOOD": "gameplay/playable-characters/diego/results/music/results-great/resultsNORMAL-diego",
-      "SHIT": "gameplay/playable-characters/diego/results/music/results-shit/resultsSHIT-diego"
+      "PERFECT_GOLD": "gameplay/playable-characters/diego/results/music/results-perfect/results-perfect",
+      "PERFECT": "gameplay/playable-characters/diego/results/music/results-perfect/results-perfect",
+      "EXCELLENT": "gameplay/playable-characters/diego/results/music/results-excellent/results-excellent",
+      "GREAT": "gameplay/playable-characters/diego/results/music/results-good/results-normal",
+      "GOOD": "gameplay/playable-characters/diego/results/music/results-great/results-normal",
+      "SHIT": "gameplay/playable-characters/diego/results/music/results-shit/results-shit"
     },
     "perfectGold": [
       {

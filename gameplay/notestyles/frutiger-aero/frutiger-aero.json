@@ -1,0 +1,960 @@
+{
+	"version": "1.1.0",
+	"fallback": null,
+	"name": "Frutiger",
+	"assets": {
+		"judgementBad": {
+			"isPixel": false,
+			"offsets": [
+				0,
+				0
+			],
+			"assetPath": "gameplay/notestyles/frutiger-aero/popup/bad",
+			"scale": 0.65,
+			"data": null,
+			"alpha": 1,
+			"animated": false
+		},
+		"comboNumber7": {
+			"isPixel": false,
+			"offsets": [
+				0,
+				0
+			],
+			"assetPath": "gameplay/notestyles/frutiger-aero/popup/num7",
+			"scale": 0.45,
+			"data": null,
+			"alpha": 1,
+			"animated": false
+		},
+		"holdNote": {
+			"isPixel": false,
+			"offsets": [
+				0,
+				0
+			],
+			"assetPath": "gameplay/notestyles/frutiger-aero/NOTE_hold_assets",
+			"scale": 0.7,
+			"data": {},
+			"alpha": 1,
+			"animated": false
+		},
+		"comboNumber8": {
+			"isPixel": false,
+			"offsets": [
+				0,
+				0
+			],
+			"assetPath": "gameplay/notestyles/frutiger-aero/popup/num8",
+			"scale": 0.45,
+			"data": null,
+			"alpha": 1,
+			"animated": false
+		},
+		"note": {
+			"isPixel": false,
+			"offsets": [
+				0,
+				0
+			],
+			"assetPath": "gameplay/notestyles/frutiger-aero/notesFrutiger",
+			"scale": 0.7,
+			"data": {
+				"down": {
+					"renderType": "",
+					"offsets": [
+						0,
+						0
+					],
+					"frameIndices": [],
+					"prefix": "noteDown",
+					"looped": false,
+					"flipX": false,
+					"animType": "framelabel",
+					"flipY": false,
+					"frameRate": 24,
+					"assetPath": null,
+					"atlasSettings": null
+				},
+				"right": {
+					"renderType": "",
+					"offsets": [
+						0,
+						0
+					],
+					"frameIndices": [],
+					"prefix": "noteRight",
+					"looped": false,
+					"flipX": false,
+					"animType": "framelabel",
+					"flipY": false,
+					"frameRate": 24,
+					"assetPath": null,
+					"atlasSettings": null
+				},
+				"left": {
+					"renderType": "",
+					"offsets": [
+						0,
+						0
+					],
+					"frameIndices": [],
+					"prefix": "noteLeft",
+					"looped": false,
+					"flipX": false,
+					"animType": "framelabel",
+					"flipY": false,
+					"frameRate": 24,
+					"assetPath": null,
+					"atlasSettings": null
+				},
+				"up": {
+					"renderType": "",
+					"offsets": [
+						0,
+						0
+					],
+					"frameIndices": [],
+					"prefix": "noteUp",
+					"looped": false,
+					"flipX": false,
+					"animType": "framelabel",
+					"flipY": false,
+					"frameRate": 24,
+					"assetPath": null,
+					"atlasSettings": null
+				}
+			},
+			"alpha": 1,
+			"animated": false
+		},
+		"comboNumber9": {
+			"isPixel": false,
+			"offsets": [
+				0,
+				0
+			],
+			"assetPath": "gameplay/notestyles/frutiger-aero/popup/num9",
+			"scale": 0.45,
+			"data": null,
+			"alpha": 1,
+			"animated": false
+		},
+		"judgementGood": {
+			"isPixel": false,
+			"offsets": [
+				0,
+				0
+			],
+			"assetPath": "gameplay/notestyles/frutiger-aero/popup/good",
+			"scale": 0.65,
+			"data": null,
+			"alpha": 1,
+			"animated": false
+		},
+		"judgementSick": {
+			"isPixel": false,
+			"offsets": [
+				0,
+				0
+			],
+			"assetPath": "gameplay/notestyles/frutiger-aero/popup/sick",
+			"scale": 0.65,
+			"data": null,
+			"alpha": 1,
+			"animated": false
+		},
+		"judgementShit": {
+			"isPixel": false,
+			"offsets": [
+				0,
+				0
+			],
+			"assetPath": "gameplay/notestyles/frutiger-aero/popup/shit",
+			"scale": 0.65,
+			"data": null,
+			"alpha": 1,
+			"animated": false
+		},
+		"countdownOne": {
+			"isPixel": false,
+			"offsets": [
+				0,
+				0
+			],
+			"assetPath": "gameplay/notestyles/frutiger-aero/countdown/graphics/set",
+			"scale": 1,
+			"data": {
+				"audioPath": "gameplay/notestyles/frutiger-aero/countdown/sounds/intro-one"
+			},
+			"alpha": 1,
+			"animated": false
+		},
+		"holdNoteCover": {
+			"isPixel": false,
+			"offsets": [
+				3,
+				0
+			],
+			"assetPath": "",
+			"scale": 1,
+			"data": {
+				"right": {
+					"start": {
+						"renderType": "",
+						"offsets": [
+							0,
+							0
+						],
+						"frameIndices": [],
+						"prefix": "holdCoverStartRed",
+						"looped": false,
+						"flipX": false,
+						"animType": "framelabel",
+						"flipY": false,
+						"frameRate": 24,
+						"assetPath": null,
+						"atlasSettings": null
+					},
+					"hold": {
+						"renderType": "",
+						"offsets": [
+							0,
+							0
+						],
+						"frameIndices": [],
+						"prefix": "holdCoverRed",
+						"looped": false,
+						"flipX": false,
+						"animType": "framelabel",
+						"flipY": false,
+						"frameRate": 24,
+						"assetPath": null,
+						"atlasSettings": null
+					},
+					"end": {
+						"renderType": "",
+						"offsets": [
+							0,
+							0
+						],
+						"frameIndices": [],
+						"prefix": "holdCoverEndRed",
+						"looped": false,
+						"flipX": false,
+						"animType": "framelabel",
+						"flipY": false,
+						"frameRate": 24,
+						"assetPath": null,
+						"atlasSettings": null
+					},
+					"assetPath": "gameplay/notestyles/frutiger-aero/holdCoverRed"
+				},
+				"enabled": true,
+				"down": {
+					"start": {
+						"renderType": "",
+						"offsets": [
+							0,
+							0
+						],
+						"frameIndices": [],
+						"prefix": "holdCoverStartBlue",
+						"looped": false,
+						"flipX": false,
+						"animType": "framelabel",
+						"flipY": false,
+						"frameRate": 24,
+						"assetPath": null,
+						"atlasSettings": null
+					},
+					"hold": {
+						"renderType": "",
+						"offsets": [
+							0,
+							0
+						],
+						"frameIndices": [],
+						"prefix": "holdCoverBlue",
+						"looped": false,
+						"flipX": false,
+						"animType": "framelabel",
+						"flipY": false,
+						"frameRate": 24,
+						"assetPath": null,
+						"atlasSettings": null
+					},
+					"end": {
+						"renderType": "",
+						"offsets": [
+							0,
+							0
+						],
+						"frameIndices": [],
+						"prefix": "holdCoverEndBlue",
+						"looped": false,
+						"flipX": false,
+						"animType": "framelabel",
+						"flipY": false,
+						"frameRate": 24,
+						"assetPath": null,
+						"atlasSettings": null
+					},
+					"assetPath": "gameplay/notestyles/frutiger-aero/holdCoverBlue"
+				},
+				"up": {
+					"start": {
+						"renderType": "",
+						"offsets": [
+							0,
+							0
+						],
+						"frameIndices": [],
+						"prefix": "holdCoverStartGreen",
+						"looped": false,
+						"flipX": false,
+						"animType": "framelabel",
+						"flipY": false,
+						"frameRate": 24,
+						"assetPath": null,
+						"atlasSettings": null
+					},
+					"hold": {
+						"renderType": "",
+						"offsets": [
+							0,
+							0
+						],
+						"frameIndices": [],
+						"prefix": "holdCoverGreen",
+						"looped": false,
+						"flipX": false,
+						"animType": "framelabel",
+						"flipY": false,
+						"frameRate": 24,
+						"assetPath": null,
+						"atlasSettings": null
+					},
+					"end": {
+						"renderType": "",
+						"offsets": [
+							0,
+							0
+						],
+						"frameIndices": [],
+						"prefix": "holdCoverEndGreen",
+						"looped": false,
+						"flipX": false,
+						"animType": "framelabel",
+						"flipY": false,
+						"frameRate": 24,
+						"assetPath": null,
+						"atlasSettings": null
+					},
+					"assetPath": "gameplay/notestyles/frutiger-aero/holdCoverGreen"
+				},
+				"left": {
+					"start": {
+						"renderType": "",
+						"offsets": [
+							0,
+							0
+						],
+						"frameIndices": [],
+						"prefix": "holdCoverStartPurple",
+						"looped": false,
+						"flipX": false,
+						"animType": "framelabel",
+						"flipY": false,
+						"frameRate": 24,
+						"assetPath": null,
+						"atlasSettings": null
+					},
+					"hold": {
+						"renderType": "",
+						"offsets": [
+							0,
+							0
+						],
+						"frameIndices": [],
+						"prefix": "holdCoverPurple",
+						"looped": false,
+						"flipX": false,
+						"animType": "framelabel",
+						"flipY": false,
+						"frameRate": 24,
+						"assetPath": null,
+						"atlasSettings": null
+					},
+					"end": {
+						"renderType": "",
+						"offsets": [
+							0,
+							0
+						],
+						"frameIndices": [],
+						"prefix": "holdCoverEndPurple",
+						"looped": false,
+						"flipX": false,
+						"animType": "framelabel",
+						"flipY": false,
+						"frameRate": 24,
+						"assetPath": null,
+						"atlasSettings": null
+					},
+					"assetPath": "gameplay/notestyles/frutiger-aero/holdCoverPurple"
+				}
+			},
+			"alpha": 1,
+			"animated": false
+		},
+		"noteSplash": {
+			"isPixel": false,
+			"offsets": [
+				25,
+				-10
+			],
+			"assetPath": "gameplay/notestyles/frutiger-aero/noteSplashesFrutiger",
+			"scale": 1,
+			"data": {
+				"upSplashes": [
+					{
+						"renderType": "",
+						"offsets": [
+							0,
+							0
+						],
+						"frameIndices": [],
+						"prefix": "note impact 1 green0",
+						"looped": false,
+						"flipX": false,
+						"animType": "framelabel",
+						"flipY": false,
+						"frameRate": 24,
+						"assetPath": null,
+						"atlasSettings": null
+					},
+					{
+						"renderType": "",
+						"offsets": [
+							0,
+							0
+						],
+						"frameIndices": [],
+						"prefix": "note impact 2 green0",
+						"looped": false,
+						"flipX": false,
+						"animType": "framelabel",
+						"flipY": false,
+						"frameRate": 24,
+						"assetPath": null,
+						"atlasSettings": null
+					}
+				],
+				"blendMode": "normal",
+				"framerateDefault": 24,
+				"leftSplashes": [
+					{
+						"renderType": "",
+						"offsets": [
+							0,
+							0
+						],
+						"frameIndices": [],
+						"prefix": "note impact 1 purple0",
+						"looped": false,
+						"flipX": false,
+						"animType": "framelabel",
+						"flipY": false,
+						"frameRate": 24,
+						"assetPath": null,
+						"atlasSettings": null
+					},
+					{
+						"renderType": "",
+						"offsets": [
+							0,
+							0
+						],
+						"frameIndices": [],
+						"prefix": "note impact 2 purple0",
+						"looped": false,
+						"flipX": false,
+						"animType": "framelabel",
+						"flipY": false,
+						"frameRate": 24,
+						"assetPath": null,
+						"atlasSettings": null
+					}
+				],
+				"enabled": true,
+				"rightSplashes": [
+					{
+						"renderType": "",
+						"offsets": [
+							0,
+							0
+						],
+						"frameIndices": [],
+						"prefix": "note impact 1 red0",
+						"looped": false,
+						"flipX": false,
+						"animType": "framelabel",
+						"flipY": false,
+						"frameRate": 24,
+						"assetPath": null,
+						"atlasSettings": null
+					},
+					{
+						"renderType": "",
+						"offsets": [
+							0,
+							0
+						],
+						"frameIndices": [],
+						"prefix": "note impact 2 red0",
+						"looped": false,
+						"flipX": false,
+						"animType": "framelabel",
+						"flipY": false,
+						"frameRate": 24,
+						"assetPath": null,
+						"atlasSettings": null
+					}
+				],
+				"framerateVariance": 2,
+				"downSplashes": [
+					{
+						"renderType": "",
+						"offsets": [
+							0,
+							0
+						],
+						"frameIndices": [],
+						"prefix": "note impact 1  blue0",
+						"looped": false,
+						"flipX": false,
+						"animType": "framelabel",
+						"flipY": false,
+						"frameRate": 24,
+						"assetPath": null,
+						"atlasSettings": null
+					},
+					{
+						"renderType": "",
+						"offsets": [
+							0,
+							0
+						],
+						"frameIndices": [],
+						"prefix": "note impact 2 blue0",
+						"looped": false,
+						"flipX": false,
+						"animType": "framelabel",
+						"flipY": false,
+						"frameRate": 24,
+						"assetPath": null,
+						"atlasSettings": null
+					}
+				]
+			},
+			"alpha": 0.8,
+			"animated": false
+		},
+		"countdownGo": {
+			"isPixel": false,
+			"offsets": [
+				0,
+				0
+			],
+			"assetPath": "gameplay/notestyles/frutiger-aero/countdown/go",
+			"scale": 1,
+			"data": {
+				"audioPath": "gameplay/notestyles/frutiger-aero/countdown/sounds/intro-go"
+			},
+			"alpha": 1,
+			"animated": false
+		},
+		"comboNumber0": {
+			"isPixel": false,
+			"offsets": [
+				0,
+				0
+			],
+			"assetPath": "gameplay/notestyles/frutiger-aero/popup/num0",
+			"scale": 0.45,
+			"data": null,
+			"alpha": 1,
+			"animated": false
+		},
+		"comboNumber1": {
+			"isPixel": false,
+			"offsets": [
+				0,
+				0
+			],
+			"assetPath": "gameplay/notestyles/frutiger-aero/popup/num1",
+			"scale": 0.45,
+			"data": null,
+			"alpha": 1,
+			"animated": false
+		},
+		"noteStrumline": {
+			"isPixel": false,
+			"offsets": [
+				32,
+				26
+			],
+			"assetPath": "gameplay/notestyles/frutiger-aero/noteStrumlineFrutiger",
+			"scale": 0.7,
+			"data": {
+				"leftConfirmHold": {
+					"renderType": "",
+					"offsets": [
+						0,
+						0
+					],
+					"frameIndices": [],
+					"prefix": "confirmLeft",
+					"looped": false,
+					"flipX": false,
+					"animType": "framelabel",
+					"flipY": false,
+					"frameRate": 24,
+					"assetPath": null,
+					"atlasSettings": null
+				},
+				"downStatic": {
+					"renderType": "",
+					"offsets": [
+						0,
+						0
+					],
+					"frameIndices": [],
+					"prefix": "arrow staticDown0",
+					"looped": false,
+					"flipX": false,
+					"animType": "framelabel",
+					"flipY": false,
+					"frameRate": 24,
+					"assetPath": null,
+					"atlasSettings": null
+				},
+				"upPress": {
+					"renderType": "",
+					"offsets": [
+						0,
+						0
+					],
+					"frameIndices": [],
+					"prefix": "pressUp0",
+					"looped": false,
+					"flipX": false,
+					"animType": "framelabel",
+					"flipY": false,
+					"frameRate": 24,
+					"assetPath": null,
+					"atlasSettings": null
+				},
+				"leftConfirm": {
+					"renderType": "",
+					"offsets": [
+						0,
+						0
+					],
+					"frameIndices": [],
+					"prefix": "confirmLeft",
+					"looped": false,
+					"flipX": false,
+					"animType": "framelabel",
+					"flipY": false,
+					"frameRate": 24,
+					"assetPath": null,
+					"atlasSettings": null
+				},
+				"downPress": {
+					"renderType": "",
+					"offsets": [
+						0,
+						0
+					],
+					"frameIndices": [],
+					"prefix": "pressDown0",
+					"looped": false,
+					"flipX": false,
+					"animType": "framelabel",
+					"flipY": false,
+					"frameRate": 24,
+					"assetPath": null,
+					"atlasSettings": null
+				},
+				"upStatic": {
+					"renderType": "",
+					"offsets": [
+						0,
+						0
+					],
+					"frameIndices": [],
+					"prefix": "arrow staticUp0",
+					"looped": false,
+					"flipX": false,
+					"animType": "framelabel",
+					"flipY": false,
+					"frameRate": 24,
+					"assetPath": null,
+					"atlasSettings": null
+				},
+				"rightStatic": {
+					"renderType": "",
+					"offsets": [
+						0,
+						0
+					],
+					"frameIndices": [],
+					"prefix": "arrow staticRight",
+					"looped": false,
+					"flipX": false,
+					"animType": "framelabel",
+					"flipY": false,
+					"frameRate": 24,
+					"assetPath": null,
+					"atlasSettings": null
+				},
+				"rightConfirmHold": {
+					"renderType": "",
+					"offsets": [
+						0,
+						0
+					],
+					"frameIndices": [],
+					"prefix": "confirmRight",
+					"looped": false,
+					"flipX": false,
+					"animType": "framelabel",
+					"flipY": false,
+					"frameRate": 24,
+					"assetPath": null,
+					"atlasSettings": null
+				},
+				"upConfirmHold": {
+					"renderType": "",
+					"offsets": [
+						0,
+						0
+					],
+					"frameIndices": [],
+					"prefix": "confirmUp",
+					"looped": false,
+					"flipX": false,
+					"animType": "framelabel",
+					"flipY": false,
+					"frameRate": 24,
+					"assetPath": null,
+					"atlasSettings": null
+				},
+				"leftPress": {
+					"renderType": "",
+					"offsets": [
+						0,
+						0
+					],
+					"frameIndices": [],
+					"prefix": "pressLeft0",
+					"looped": false,
+					"flipX": false,
+					"animType": "framelabel",
+					"flipY": false,
+					"frameRate": 24,
+					"assetPath": null,
+					"atlasSettings": null
+				},
+				"rightConfirm": {
+					"renderType": "",
+					"offsets": [
+						0,
+						0
+					],
+					"frameIndices": [],
+					"prefix": "confirmRight",
+					"looped": false,
+					"flipX": false,
+					"animType": "framelabel",
+					"flipY": false,
+					"frameRate": 24,
+					"assetPath": null,
+					"atlasSettings": null
+				},
+				"downConfirmHold": {
+					"renderType": "",
+					"offsets": [
+						0,
+						0
+					],
+					"frameIndices": [],
+					"prefix": "confirmDown",
+					"looped": false,
+					"flipX": false,
+					"animType": "framelabel",
+					"flipY": false,
+					"frameRate": 24,
+					"assetPath": null,
+					"atlasSettings": null
+				},
+				"upConfirm": {
+					"renderType": "",
+					"offsets": [
+						0,
+						0
+					],
+					"frameIndices": [],
+					"prefix": "confirmUp",
+					"looped": false,
+					"flipX": false,
+					"animType": "framelabel",
+					"flipY": false,
+					"frameRate": 24,
+					"assetPath": null,
+					"atlasSettings": null
+				},
+				"leftStatic": {
+					"renderType": "",
+					"offsets": [
+						0,
+						0
+					],
+					"frameIndices": [],
+					"prefix": "arrow staticLeft0",
+					"looped": false,
+					"flipX": false,
+					"animType": "framelabel",
+					"flipY": false,
+					"frameRate": 24,
+					"assetPath": null,
+					"atlasSettings": null
+				},
+				"downConfirm": {
+					"renderType": "",
+					"offsets": [
+						0,
+						0
+					],
+					"frameIndices": [],
+					"prefix": "confirmDown",
+					"looped": false,
+					"flipX": false,
+					"animType": "framelabel",
+					"flipY": false,
+					"frameRate": 24,
+					"assetPath": null,
+					"atlasSettings": null
+				},
+				"rightPress": {
+					"renderType": "",
+					"offsets": [
+						0,
+						0
+					],
+					"frameIndices": [],
+					"prefix": "pressRight0",
+					"looped": false,
+					"flipX": false,
+					"animType": "framelabel",
+					"flipY": false,
+					"frameRate": 24,
+					"assetPath": null,
+					"atlasSettings": null
+				}
+			},
+			"alpha": 1,
+			"animated": false
+		},
+		"countdownTwo": {
+			"isPixel": false,
+			"offsets": [
+				0,
+				0
+			],
+			"scale": 1,
+			"data": {
+				"audioPath": "gameplay/notestyles/frutiger-aero/countdown/sounds/intro-two"
+			},
+			"alpha": 1,
+			"animated": false
+		},
+		"comboNumber2": {
+			"isPixel": false,
+			"offsets": [
+				0,
+				0
+			],
+			"assetPath": "gameplay/notestyles/frutiger-aero/popup/num2",
+			"scale": 0.45,
+			"data": null,
+			"alpha": 1,
+			"animated": false
+		},
+		"comboNumber3": {
+			"isPixel": false,
+			"offsets": [
+				0,
+				0
+			],
+			"assetPath": "gameplay/notestyles/frutiger-aero/popup/num3",
+			"scale": 0.45,
+			"data": null,
+			"alpha": 1,
+			"animated": false
+		},
+		"countdownThree": {
+			"isPixel": false,
+			"offsets": [
+				0,
+				0
+			],
+			"assetPath": "gameplay/notestyles/frutiger-aero/countdown/ready",
+			"scale": 1,
+			"data": {
+				"audioPath": "gameplay/notestyles/frutiger-aero/countdown/sounds/intro-three"
+			},
+			"alpha": 1,
+			"animated": false
+		},
+		"comboNumber4": {
+			"isPixel": false,
+			"offsets": [
+				0,
+				0
+			],
+			"assetPath": "gameplay/notestyles/frutiger-aero/popup/num4",
+			"scale": 0.45,
+			"data": null,
+			"alpha": 1,
+			"animated": false
+		},
+		"comboNumber5": {
+			"isPixel": false,
+			"offsets": [
+				0,
+				0
+			],
+			"assetPath": "gameplay/notestyles/frutiger-aero/popup/num5",
+			"scale": 0.45,
+			"data": null,
+			"alpha": 1,
+			"animated": false
+		},
+		"comboNumber6": {
+			"isPixel": false,
+			"offsets": [
+				0,
+				0
+			],
+			"assetPath": "gameplay/notestyles/frutiger-aero/popup/num6",
+			"scale": 0.45,
+			"data": null,
+			"alpha": 1,
+			"animated": false
+		}
+	},
+	"author": "Bushed + DiegozZ"
+}

@@ -1,65 +1,61 @@
 {
- "version": "2.2.8",
- "songName": "Darnell (Diego Mix)",
- "artist": "TotallyZari",
- "charter": "DiegozZ + TotallyZari",
- "offsets": { },
- "playData": {
-  "difficulties": [
-   "easy",
-   "normal",
-   "hard"
-  ],
-  "characters": {
-   "player": "diego",
-   "girlfriend": "roky-weekend",
-   "opponent": "darnell",
-   "instrumental": "diego",
-   "opponentVocals": [
-    "darnell"
-   ],
-   "playerVocals": [
-    "diego"
-   ]
+  "version": "2.2.8",
+  "songName": "Darnell (Diego Mix)",
+  "artist": "TotallyZari",
+  "charter": "DiegozZ + TotallyZari",
+  "offsets": {},
+  "playData": {
+    "difficulties": [
+      "easy",
+      "normal",
+      "hard"
+    ],
+    "characters": {
+      "player": "diego",
+      "girlfriend": "roky-humbrella",
+      "opponent": "darnell",
+      "instrumental": "diego",
+      "opponentVocals": [
+        "darnell"
+      ],
+      "playerVocals": [
+        "diego"
+      ]
+    },
+    "stage": "Ozzo-Weekend",
+    "noteStyle": "funkin-qt-2021",
+    "ratings": {
+      "hard": 11
+    },
+    "album": "volume1diego",
+    "stickerPack": "default",
+    "previewEnd": 0
   },
-  "stage": "Ozzo-Weekend",
-<<<<<<< HEAD
-  "noteStyle": "funkin-qt-2021",
-=======
-  "noteStyle": "frutiger",
->>>>>>> 8dab9aaff63a207ca938cd9c046842f5f17f792e
-  "ratings": {
-   "hard": 11
-  },
-  "album": "volume1diego",
-  "stickerPack": "default",
-  "previewEnd": 0
- },
- "generatedBy": "Friday Night Funkin' - v0.8.5",
- "timeChanges": [
-  {
-   "t": 0,
-   "b": 0,
-   "bpm": 155,
-   "bt": [4, 4, 4, 4]
-  },
-  {
-   "t": 4286.0001,
-   "b": 11.0722,
-   "bpm": 155,
-   "bt": [4, 4, 4, 4]
-  },
-  {
-   "t": 133183.7686,
-   "b": 344.0581,
-   "bpm": 155,
-   "bt": [4, 4, 4, 4]
-  },
-  {
-   "t": 145544.3872,
-   "b": 375.9897,
-   "bpm": 210,
-   "bt": [4, 4, 4, 4]
-  }
- ]
+  "generatedBy": "Friday Night Funkin' - v0.8.5",
+  "timeChanges": [
+    {
+      "t": 0,
+      "b": 0,
+      "bpm": 155,
+      "bt": [4, 4, 4, 4]
+    },
+    {
+      "t": 4286.0001,
+      "b": 11.0722,
+      "bpm": 155,
+      "bt": [4, 4, 4, 4]
+    },
+    {
+      "t": 133183.7686,
+      "b": 344.0581,
+      "bpm": 155,
+      "bt": [4, 4, 4, 4]
+    },
+    {
+      "t": 145544.3872,
+      "b": 375.9897,
+      "bpm": 210,
+      "bt": [4, 4, 4, 4]
+    }
+  ]
 }

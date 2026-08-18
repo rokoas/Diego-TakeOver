@@ -1,0 +1,96 @@
+{
+  "version": "1.0.0",
+  "name": "Roky [Weekend 1] (NEW)",
+  "renderType": "animateatlas",
+  "healthIcon": {
+		"offsets": [
+			0,
+			0
+		],
+		"isPixel": false,
+		"scale": 1,
+		"flipX": false,
+		"id": "roky"
+	},
+  "assetPath": "gameplay/characters/roky-weekend/RokyHumbrella",
+  "startingAnimation": "rokyIdle",
+  "offsets": [0, 15],
+  "cameraOffsets": [12, 8],
+  "animations": [
+    {
+      "name": "danceLeft",
+      "prefix": "rokyIdle",
+      "frameIndices": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14,15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
+      "looped": true,
+      "offsets": [0, -9]
+    },
+       {
+      "name": "EpicDance",
+      "prefix": "rokyEPICDANCE",
+      "looped": true,
+      "offsets": [0, -9]
+    },
+    {
+      "name": "sad",
+      "prefix": "roky sad",
+      "frameIndices": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "offsets": [0, -17]
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "rokyLeft",
+      "offsets": [0, -8]
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "rokyDown",
+      "offsets": [0, -9]
+    },
+    {
+      "name": "singUP",
+      "prefix": "rokyUp",
+      "offsets": [0, -9]
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "rokyRight",
+      "offsets": [0, -8]
+    },
+    {
+      "name": "cheer",
+      "prefix": "rokyCheer",
+      "offsets": [0, -9]
+    },
+    {
+      "name": "combo50",
+      "prefix": "rokyCheer",
+      "offsets": [1, -11]
+    },
+    {
+      "name": "drop70",
+      "prefix": "rokySad",
+      "frameIndices": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "offsets": [1, -11]
+    },
+    {
+      "name": "rokyIdle",
+      "prefix": "Idle (Hair blowing)",
+      "frameIndices": [0, 1, 2, 3]
+    },
+    {
+      "name": "rokyIdle",
+      "prefix": "Hair landing",
+      "frameIndices": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    },
+    {
+      "name": "rokyTIntro",
+      "prefix": "rokyIntroTUTORIALdraft",
+      "offsets": [1, -11]
+    },
+    {
+      "name": "rokyIdle",
+      "prefix": "Fear",
+      "frameIndices": [0, 1, 2, 3, 0, 1, 2, 3, 0, 1, 2, 3]
+    }
+  ]
+}

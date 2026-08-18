@@ -1,0 +1,114 @@
+import funkin.play.stage.Stage;
+import funkin.graphics.shaders.DropShadowShader;
+import funkin.play.character.CharacterType;
+import flixel.util.FlxSave;
+
+class SpookyStoreStage extends Stage {
+	function new() {
+		super('SpookyStore');
+
+	}
+
+	var endCameraStop:Bool = false;
+
+	public override function onCountdownStart(event:CountdownScriptEvent):Void {
+		super.onCountdownStart(event);
+
+		endCameraStop = false;
+	}
+
+	function buildStage() {
+		super.buildStage();
+
+		if (DiegoTakeOverOptions.diegoShaders)
+			getNamedProp('glow');
+	}
+
+	override function addCharacter(character:BaseCharacter, charType:CharacterType):Void {
+		// Apply the shader automatically to each character as it gets added.
+		super.addCharacter(character, charType);
+		if (DiegoTakeOverOptions.diegoShaders) {
+			trace('Applied stage shader to ' + character.characterName);
+
+			var rim = new DropShadowShader();
+			character.shader = rim;
+			rim.attachedSprite = character;
+
+			switch (charType) {
+				case CharacterType.BF:
+					rim.setAdjustColor(-95, -46, -10, -45); // b, h, c, s
+					rim.angle = 135;
+					rim.color = 0xBFFAFA;
+					// rim.distance = 0;
+
+					character.animation.onFrameChange.add(function() {
+						if (getBoyfriend() != null) {
+							rim.updateFrameInfo(getBoyfriend().frame);
+						}
+					});
+
+				case CharacterType.DAD:
+					rim.setAdjustColor(-95, -46, -10, -45); // b, h, c, s
+					rim.angle = 135;
+					rim.color = 0xBFFAFA;
+
+					character.animation.onFrameChange.add(function() {
+						if (getDad() != null) {
+							rim.updateFrameInfo(getDad().frame);
+						}
+					});
+
+				case CharacterType.GF:
+					rim.setAdjustColor(-95, -46, -10, -45); // b, h, c, s
+					rim.angle = 135;
+					rim.color = 0xBFFAFA;
+
+					character.animation.onFrameChange.add(function() {
+						if (getDad() != null) {
+							rim.updateFrameInfo(getGirlfriend().frame);
+						}
+					});
+
+				default:
+			}
+		}
+	}
+
+	function onUpdate(event:UpdateScriptEvent):Void {
+		super.onUpdate(event);
+
+		if (endCameraStop == true) {
+			FlxG.camera.target = null;
+		}
+
+		if (DiegoTakeOverOptions.diegoShaders) {} else {
+			if (getBoyfriend() != null) {
+				getBoyfriend().color = 0x969CBA;
+				getDad().color = 0x969CBA;
+			}
+		}
+	}
+
+	override function onGameOver(event:ScriptEvent):Void {
+		super.onGameOver(event);
+
+		if (DiegoTakeOverOptions.diegoShaders)
+			getBoyfriend().shader = null;
+		else
+			getBoyfriend().color = 0xFFFFFF;
+	}
+
+	override function onSongRetry(event:ScriptEvent):Void {
+		super.onSongRetry(event);
+
+		if (DiegoTakeOverOptions.diegoShaders) {} else {
+			getBoyfriend().color = 0x969CBA;
+		}
+	}
+
+	public override function onSongEnd(event:CountdownScriptEvent):Void {
+		super.onSongEnd(event);
+
+		endCameraStop = true;
+	}
+}
