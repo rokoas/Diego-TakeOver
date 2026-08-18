@@ -9,7 +9,7 @@
 				0,
 				0
 			],
-			"assetPath": "gameplay/notestyles/frutiger-aero/popup/bad",
+			"assetPath": "default:ui/popup/frutiger/bad",
 			"scale": 0.65,
 			"data": null,
 			"alpha": 1,
@@ -21,7 +21,7 @@
 				0,
 				0
 			],
-			"assetPath": "gameplay/notestyles/frutiger-aero/popup/num7",
+			"assetPath": "default:ui/popup/frutiger/num7",
 			"scale": 0.45,
 			"data": null,
 			"alpha": 1,
@@ -33,7 +33,7 @@
 				0,
 				0
 			],
-			"assetPath": "gameplay/notestyles/frutiger-aero/NOTE_hold_assets",
+			"assetPath": "NOTE_hold_assets",
 			"scale": 0.7,
 			"data": {},
 			"alpha": 1,
@@ -45,7 +45,7 @@
 				0,
 				0
 			],
-			"assetPath": "gameplay/notestyles/frutiger-aero/popup/num8",
+			"assetPath": "default:ui/popup/frutiger/num8",
 			"scale": 0.45,
 			"data": null,
 			"alpha": 1,
@@ -57,7 +57,7 @@
 				0,
 				0
 			],
-			"assetPath": "gameplay/notestyles/frutiger-aero/notesFrutiger",
+			"assetPath": "shared:notesFrutiger",
 			"scale": 0.7,
 			"data": {
 				"down": {
@@ -134,7 +134,7 @@
 				0,
 				0
 			],
-			"assetPath": "gameplay/notestyles/frutiger-aero/popup/num9",
+			"assetPath": "default:ui/popup/frutiger/num9",
 			"scale": 0.45,
 			"data": null,
 			"alpha": 1,
@@ -146,7 +146,7 @@
 				0,
 				0
 			],
-			"assetPath": "gameplay/notestyles/frutiger-aero/popup/good",
+			"assetPath": "default:ui/popup/frutiger/good",
 			"scale": 0.65,
 			"data": null,
 			"alpha": 1,
@@ -158,7 +158,7 @@
 				0,
 				0
 			],
-			"assetPath": "gameplay/notestyles/frutiger-aero/popup/sick",
+			"assetPath": "default:ui/popup/frutiger/sick",
 			"scale": 0.65,
 			"data": null,
 			"alpha": 1,
@@ -170,7 +170,7 @@
 				0,
 				0
 			],
-			"assetPath": "gameplay/notestyles/frutiger-aero/popup/shit",
+			"assetPath": "default:ui/popup/frutiger/shit",
 			"scale": 0.65,
 			"data": null,
 			"alpha": 1,
@@ -182,10 +182,10 @@
 				0,
 				0
 			],
-			"assetPath": "gameplay/notestyles/frutiger-aero/countdown/graphics/set",
+			"assetPath": "shared:ui/countdown/frutiger/set",
 			"scale": 1,
 			"data": {
-				"audioPath": "gameplay/notestyles/frutiger-aero/countdown/sounds/intro-one"
+				"audioPath": "shared:gameplay/countdown/frutiger/introONE"
 			},
 			"alpha": 1,
 			"animated": false
@@ -248,7 +248,7 @@
 						"assetPath": null,
 						"atlasSettings": null
 					},
-					"assetPath": "gameplay/notestyles/frutiger-aero/holdCoverRed"
+					"assetPath": "shared:holdCoverRed"
 				},
 				"enabled": true,
 				"down": {
@@ -300,7 +300,7 @@
 						"assetPath": null,
 						"atlasSettings": null
 					},
-					"assetPath": "gameplay/notestyles/frutiger-aero/holdCoverBlue"
+					"assetPath": "shared:holdCoverBlue"
 				},
 				"up": {
 					"start": {
@@ -351,7 +351,7 @@
 						"assetPath": null,
 						"atlasSettings": null
 					},
-					"assetPath": "gameplay/notestyles/frutiger-aero/holdCoverGreen"
+					"assetPath": "shared:holdCoverGreen"
 				},
 				"left": {
 					"start": {
@@ -402,7 +402,7 @@
 						"assetPath": null,
 						"atlasSettings": null
 					},
-					"assetPath": "gameplay/notestyles/frutiger-aero/holdCoverPurple"
+					"assetPath": "shared:holdCoverPurple"
 				}
 			},
 			"alpha": 1,
@@ -414,7 +414,7 @@
 				25,
 				-10
 			],
-			"assetPath": "gameplay/notestyles/frutiger-aero/noteSplashesFrutiger",
+			"assetPath": "shared:noteSplashesFrutiger",
 			"scale": 1,
 			"data": {
 				"upSplashes": [
@@ -567,10 +567,10 @@
 				0,
 				0
 			],
-			"assetPath": "gameplay/notestyles/frutiger-aero/countdown/go",
+			"assetPath": "shared:ui/countdown/frutiger/go",
 			"scale": 1,
 			"data": {
-				"audioPath": "gameplay/notestyles/frutiger-aero/countdown/sounds/intro-go"
+				"audioPath": "shared:gameplay/countdown/frutiger/introGO"
 			},
 			"alpha": 1,
 			"animated": false
@@ -581,7 +581,7 @@
 				0,
 				0
 			],
-			"assetPath": "gameplay/notestyles/frutiger-aero/popup/num0",
+			"assetPath": "default:ui/popup/frutiger/num0",
 			"scale": 0.45,
 			"data": null,
 			"alpha": 1,
@@ -593,7 +593,7 @@
 				0,
 				0
 			],
-			"assetPath": "gameplay/notestyles/frutiger-aero/popup/num1",
+			"assetPath": "default:ui/popup/frutiger/num1",
 			"scale": 0.45,
 			"data": null,
 			"alpha": 1,
@@ -605,7 +605,7 @@
 				32,
 				26
 			],
-			"assetPath": "gameplay/notestyles/frutiger-aero/noteStrumlineFrutiger",
+			"assetPath": "shared:noteStrumlineFrutiger",
 			"scale": 0.7,
 			"data": {
 				"leftConfirmHold": {
@@ -874,9 +874,10 @@
 				0,
 				0
 			],
+			"assetPath": "shared:ui/countdown/frutiger/ready",
 			"scale": 1,
 			"data": {
-				"audioPath": "gameplay/notestyles/frutiger-aero/countdown/sounds/intro-two"
+				"audioPath": "shared:gameplay/countdown/frutiger/introTWO"
 			},
 			"alpha": 1,
 			"animated": false
@@ -887,7 +888,7 @@
 				0,
 				0
 			],
-			"assetPath": "gameplay/notestyles/frutiger-aero/popup/num2",
+			"assetPath": "default:ui/popup/frutiger/num2",
 			"scale": 0.45,
 			"data": null,
 			"alpha": 1,
@@ -899,7 +900,7 @@
 				0,
 				0
 			],
-			"assetPath": "gameplay/notestyles/frutiger-aero/popup/num3",
+			"assetPath": "default:ui/popup/frutiger/num3",
 			"scale": 0.45,
 			"data": null,
 			"alpha": 1,
@@ -911,10 +912,10 @@
 				0,
 				0
 			],
-			"assetPath": "gameplay/notestyles/frutiger-aero/countdown/ready",
+			"assetPath": null,
 			"scale": 1,
 			"data": {
-				"audioPath": "gameplay/notestyles/frutiger-aero/countdown/sounds/intro-three"
+				"audioPath": "shared:gameplay/countdown/frutiger/introTHREE"
 			},
 			"alpha": 1,
 			"animated": false
@@ -925,7 +926,7 @@
 				0,
 				0
 			],
-			"assetPath": "gameplay/notestyles/frutiger-aero/popup/num4",
+			"assetPath": "default:ui/popup/frutiger/num4",
 			"scale": 0.45,
 			"data": null,
 			"alpha": 1,
@@ -937,7 +938,7 @@
 				0,
 				0
 			],
-			"assetPath": "gameplay/notestyles/frutiger-aero/popup/num5",
+			"assetPath": "default:ui/popup/frutiger/num5",
 			"scale": 0.45,
 			"data": null,
 			"alpha": 1,
@@ -949,7 +950,7 @@
 				0,
 				0
 			],
-			"assetPath": "gameplay/notestyles/frutiger-aero/popup/num6",
+			"assetPath": "default:ui/popup/frutiger/num6",
 			"scale": 0.45,
 			"data": null,
 			"alpha": 1,

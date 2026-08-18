@@ -4,11 +4,11 @@ import funkin.play.PlayState;
 
 using StringTools;
 
-class RokyHumbrellaCharacter extends AnimateAtlasCharacter
+class RokyHumbrellaWeekend1Character extends AnimateAtlasCharacter
 {
   function new()
   {
-    super('roky-humbrella');
+    super('roky-humbrella-weekend1');
   }
 
   override function onAdd(event:ScriptEvent):Void

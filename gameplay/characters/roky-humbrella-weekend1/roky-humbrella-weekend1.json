@@ -12,7 +12,7 @@
 		"flipX": false,
 		"id": "roky"
 	},
-  "assetPath": "gameplay/characters/roky-weekend/RokyHumbrella",
+  "assetPath": "gameplay/characters/roky-weekend/RokyHumbrellaWeekend1",
   "startingAnimation": "rokyIdle",
   "offsets": [0, 15],
   "cameraOffsets": [12, 8],
