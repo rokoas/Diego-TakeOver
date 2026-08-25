@@ -36,7 +36,7 @@ class SpookyStoreStage extends Stage {
 
 			switch (charType) {
 				case CharacterType.BF:
-					rim.setAdjustColor(-95, -46, -10, -45); // b, h, c, s
+					rim.setAdjustColor(-70, 10, -15, -20); // b, h, c, s
 					rim.angle = 135;
 					rim.color = 0xBFFAFA;
 					// rim.distance = 0;
@@ -48,7 +48,7 @@ class SpookyStoreStage extends Stage {
 					});
 
 				case CharacterType.DAD:
-					rim.setAdjustColor(-95, -46, -10, -45); // b, h, c, s
+					rim.setAdjustColor(-70, 10, -15, -20); // b, h, c, s
 					rim.angle = 135;
 					rim.color = 0xBFFAFA;
 
@@ -59,7 +59,7 @@ class SpookyStoreStage extends Stage {
 					});
 
 				case CharacterType.GF:
-					rim.setAdjustColor(-95, -46, -10, -45); // b, h, c, s
+					rim.setAdjustColor(-70, 5, -15, -20); // b, h, c, s
 					rim.angle = 135;
 					rim.color = 0xBFFAFA;
 
