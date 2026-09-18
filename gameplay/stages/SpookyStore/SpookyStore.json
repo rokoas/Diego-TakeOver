@@ -2,6 +2,18 @@
   "props": [
     {
       "danceEvery": 0,
+      "zIndex": 0,
+      "position": [-1323, -788],
+      "scale": [10.00, 10.00],
+      "animType": "sparrow",
+      "name": "black",
+      "isPixel": false,
+      "assetPath": "gameplay/stages/SpookyStore/black",
+      "scroll": [1.00, 1.00],
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
       "zIndex": 1,
       "position": [-1323, -788],
       "scale": [0.50, 0.50],
