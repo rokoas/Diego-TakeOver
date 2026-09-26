@@ -1,0 +1,100 @@
+import funkin.play.event.SongEvent;
+import funkin.play.PlayState;
+import funkin.Conductor;
+import flixel.util.FlxColor;
+
+class CameraFadeEvent extends SongEvent 
+{
+    public function new() 
+    {
+        super('CameraFade');
+    }
+
+    
+    public override function handleEvent(data)
+    {
+        // Does nothing if there is no PlayState camera or stage.
+        if (PlayState.instance == null || PlayState.instance.currentStage == null) return;
+
+        var colorString = data.getString('color');
+        var camera = data.getString('camera');
+        var duration = data.getFloat('duration');
+        var fadeType = data.getString('fade');
+        var force = data.getBool('force');
+
+        var colorHex = FlxColor.WHITE;
+        switch(colorString)
+        {
+          case 'white': colorHex = FlxColor.WHITE;
+          case 'black': colorHex = FlxColor.BLACK;
+          case 'red': colorHex = FlxColor.RED;
+          default: colorHex = FlxColor.WHITE;
+        }
+
+        var isFadeIn = (fadeType == 'fadein');
+
+        var durationSeconds = Conductor.instance.stepLengthMs * duration / 1000;
+        switch(camera)
+        {
+            case 'camGame': PlayState.instance.camGame.fade(colorHex, durationSeconds, isFadeIn, null, force);
+            case 'camHUD': PlayState.instance.camHUD.fade(colorHex, durationSeconds, isFadeIn, null, force);
+        }
+    }
+    
+    public override function getTitle():String
+    {
+        return 'Camera Fade';
+    }
+
+    public override function getEventSchema()
+    {
+        return [
+          {
+            name: 'camera',
+            title: 'Camera',
+            defaultValue: 'camGame',
+            type: "enum",
+            keys: [
+                'Camera Game' => 'camGame',
+                'Camera HUD' => 'camHUD'
+            ]
+          },
+          {
+            name: 'duration',
+            title: 'Duration',
+            defaultValue: 4.0,
+            min: 0,
+            step: 0.1,
+            type: "float",
+            units: 'steps'
+          },
+          {
+            name: 'color',
+            title: 'Color',
+            defaultValue: 'white',
+            type: "enum",
+            keys: [
+              'White' => 'white',
+              'Black' => 'black',
+              'Red' => 'red'
+            ]
+          },
+          {
+            name: 'fade',
+            title: 'Fade Type',
+            defaultValue: 'fadeout',
+            type: "enum",
+            keys: [
+              'Fade In' => 'fadein',
+              'Fade Out' => 'fadeout',
+            ]
+          },
+          {
+            name: 'force',
+            title: 'Force',
+            defaultValue: true,
+            type: "bool"
+          }
+        ];
+    }
+}

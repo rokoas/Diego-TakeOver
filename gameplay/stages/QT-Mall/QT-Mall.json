@@ -6,9 +6,9 @@
       "position": [-1245, -447],
       "scale": [1.85, 1.85],
       "animType": "sparrow",
-      "name": "QT Mall",
+      "name": "QT-Supermarket",
       "isPixel": false,
-      "assetPath": "gameplay/stages/QT-Mall/QT-Mall",
+      "assetPath": "gameplay/stages/QT-Supermarket/QT-Supermarket",
       "scroll": [1.00, 1.00],
       "animations": []
     }
@@ -30,9 +30,8 @@
       "zIndex": 100,
       "cameraOffsets": [-113, -17],
       "position": [751.5, 802],
-      "scale": [0.90]
+      "scale": [0.90]  
     }
   },
-  "name": "QT Mall [Diego]",
-  "directory": "QT-Mall"
+  "name": "QT (SuperMarket) [Diego]"
 }
